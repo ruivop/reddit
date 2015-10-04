@@ -18,8 +18,8 @@ Even though reddit is one of the most reliable source of news on the Internet, t
 ##Project Activity
 At 4th October 2015, reddit had 6,652 commits, 2 branches, 0 releases, 163 contributors. It also had 197 open and 532 closed issues, 19 pull requests and 665 closed pull requests.
 
-##Code Used
+##Languages Used
 Reddit is primarily based on Python, 52.5% of it, next to JavaScript, 28.1%, and HTML and CSS with 17.9%.
 
 ##Project Model
-After analysing several commits and mostly reddit.com/r/changelog we came to the conclusion that reddit is based on the Incremental Development and Delivery model, as the core of the website is already done and it has only suffered a few tweaks throughout the years. However, the rest of the changes that have been made are mostly bug fixes, security updates and the addition of new features. These features are mostly suggested and created by the community that uses reddit to the benefit of everyone. Feature after feature have been evaluated by the users of the website, as the reviewers are also members.
+Although we couldn't contact with any of the current developers, after analyzing several commits and mostly reddit.com/r/changelog we came to the conclusion that reddit is based on the Incremental Development and Delivery mode. The core of the website is already done and it has only suffered a few tweaks throughout the years. However, the rest of the changes that have been made are mostly bug fixes, security updates and the addition of new features. These features are mostly suggested and created by the community through the use of the subreddit [/r/ideasfortheadmins/](https://reddit.com/r/ideasfortheadmins). Each new feature has been evaluated by the users of the website, as the reviewers are also members.
