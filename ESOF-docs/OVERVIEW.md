@@ -15,3 +15,6 @@ Due to it's huge user base reddit, reddit's frontpage shows the current most pop
 
 ##Project Activity
 At 4th October 2015, reddit had 6,652 commits, 2 branches, 0 releases, 163 contributors. It also had 197 open and 532 closed issues, 19 pull requests and 665 closed pull requests.
+
+##Project Model
+After analysing several commits and mostly reddit.com/r/changelog we came to the conclusion that reddit is based on the Incremental Development and Delivery model, as the core of the website is already done and it has only suffered a few tweaks throughout the years. However, the rest of the changes that have been made are mostly bug fixes, security updates and the addition of new features. These features are mostly suggested and created by the community that uses reddit to the benefit of everyone. Feature after feature have been evaluated by the users of the website, as the reviewers are also members.
