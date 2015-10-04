@@ -6,7 +6,8 @@ Reddit is the engine that powers https://reddit.com, a community-focused online 
 Reddit is content divided into **subreddits**, smaller portions of reddit whose purpose is to organized the different content entries according to it's category or area of interest, such as news, movies, music, gaming, food and many others.
 
 ###What is reddit's purpose?
->The front page of the internet
+>The front page of the Internet
+
 Reddit is the 31st most visited website globally according to **Alexa**, a company specialized in providing web traffic data and analytics.
 
 Due to it's huge user base reddit, reddit's frontpage shows the current most popular content on the internet at that specific the moment in time.
