@@ -11,3 +11,7 @@ Reddit's content is divided into **subreddits**, smaller portions of reddit whos
 Reddit is the 31st most visited website globally according to **Alexa**, a company specialized in providing web traffic data and analytics.
 
 Due to it's huge user base reddit, reddit's frontpage shows the current most popular content on the internet at that specific the moment in time.
+
+
+##Project Activity
+At 4th October 2015, reddit had 6,652 commits, 2 branches, 0 releases, 163 contributors. It also had 197 open and 532 closed issues, 19 pull requests and 665 closed pull requests.
