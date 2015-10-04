@@ -12,7 +12,7 @@ Reddit is the 31st most visited website globally according to **Alexa**, a compa
 
 Due to it's huge user base reddit, reddit's frontpage shows the current most popular content on the internet at that specific the moment in time.
 
-Even though reddit is one of the most reliable source of news on the Internet, the strength of the website is based on the fact that it's customisable. Users may subscribe to differente subreddits and, when they visit their own front page, they are greeted with the most upvoted posts from the subreddits they subscribed, unlike reddit.com/r/all, that shows the most upvoted posts from all of reddit.
+Even though reddit is one of the most reliable source of news on the Internet, the strength of the website is based on the fact that it's customisable. Users may subscribe and unsubscribe different subreddits and, when they visit their own front page, they are greeted with the most upvoted posts from the subreddits they subscribed, unlike reddit.com/r/all, that shows the most upvoted posts from all of reddit.
 
 
 ##Project Activity
