@@ -21,29 +21,37 @@ The third chapter, Requirements Specification section, of this document is writt
 
 
 #Overall description
+This section will give an overview of the whole system. The system will be explained in its context to
+show how the system interacts with other systems and introduce the basic functionality of it. It will also
+describe what type of stakeholders that will use the system and what functionality is available for each
+type. At last, the constraints and assumptions for the system will be presented.
+
 ##Product perspective
+Reddit stands out from other online bulletin board systems due to its open culture and focus in providing user insperd content.
+It consists of a web portal used to view submissions, upvote or downvote them, access subreddits and user account management.
+
 ##Product functions
 ##User Characteristics
 ##Constraints
 ##Assumptions and dependencies
 
 #Requirements Specification
-	##Externeal interface requirements
-		###User interfaces
-		###Hardware interfaces
-		###Software interfaces
-		###Communications interfaces
-	##System features
-		###System feature 1
-			####Introduction/Purpose of feature
-			####Stimulus/Response sequence
-			####Associated functional requirements
-				#####Functional requirements 1
-		###System feature 2
-	##Performance requirements
-	##Design constraints
-	##Software systems attributes
-	##Other requirements
+##Externeal interface requirements
+###User interfaces
+###Hardware interfaces
+###Software interfaces
+###Communications interfaces
+#System features
+###System feature 1
+####Introduction/Purpose of feature
+####Stimulus/Response sequence
+####Associated functional requirements
+#####Functional requirements 1
+###System feature 2
+#Performance requirements
+##Design constraints
+##Software systems attributes
+##Other requirements
 
 #Appendixes
 #Index
