@@ -13,9 +13,14 @@ Reddit's aim is to harbor an open nature and diverse user community where the co
 Reddit's content is divided into subreddits, smaller portions of reddit whose purpose is to organize the different content entries according to it's category or area of interest, such as news, movies, music, gaming, food and many others.
 
 ##Definitions, acronyms, and abbreviations
+
 ##References
 *IEEE. IEEE Std 830-1998 IEEE Recommended Practice for Software Requirements Specifications. IEEE Computer Society, 1998.*
-*https://blog.shareaholic.com/reddit-wtf/*
+
+*Duggan, Maeve and Aaron Smith (2013, July 23). 6% of Online Adults are reddit Users. Retrieved from http://pewinternet.org/ .*
+
+* https://blog.shareaholic.com/reddit-wtf/ *
+
 ##Overview
 The next chapter, the Overall Description section, of this document gives an overview of the functionality of the product. It describes the informal requirements and is used to establish a context for the technical requirements specification in the next chapter.
 The third chapter, Requirements Specification section, of this document is written primarily for the developers and describes in technical terms the details of the functionality of the product. 
@@ -36,7 +41,7 @@ It consists of a web portal used to view/post submissions, upvote or downvote th
 Reddit has a lot of functions for a website, such as sending messages and archiving all of the threads that people have created. However, its main function is bringing popular content to everyone as quickly as possible and it gives the possibility for all of the users to share their opinions on whatever matter is being discussed.
 
 ##User Characteristics
-Reddit community is consists usually of young male users, with no specific range of educational level. As of May 2013, 15% of the internet users between the age of 18-29 say they use reddit.
+Reddit community is consists usually of young male users, with no specific range of educational level. According to [PewResearchCenter](http://pewinternet.org) As of May 2013, 15% of the internet users between the age of 18-29 say they use reddit.
 ![Reddit Demographics May,2013](http://www.pewinternet.org/~/media/177A4307EC6E400F91716BD228C4B747.jpg)
 
 ##Constraints
