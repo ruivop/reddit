@@ -28,12 +28,17 @@ describe what type of stakeholders that will use the system and what functionali
 type. At last, the constraints and assumptions for the system will be presented.
 
 ##Product perspective
-Reddit stands out from other online bulletin board systems due to its open culture and focus in providing user insperd content.
-It consists of a web portal used to view submissions, upvote or downvote them, access subreddits and user account management.
+Reddit stands out from other online bulletin board systems due to its open culture and focus in providing User-generated content.
+It consists of a web portal used to view/post submissions, upvote or downvote them, comment on them, and access subreddits and user account management.
+![Block Diagram](https://i.imgur.com/uwO6Ula.png)
 
 ##Product functions
-Reddit has a lot of functions for a website, such as sending messages and archiving all of the threads that people have created. However, its main function is bringing news to everyone as quickly as possible and it gives the possibility for all of the users to share their opinions on whatever matter is being discussed.
+Reddit has a lot of functions for a website, such as sending messages and archiving all of the threads that people have created. However, its main function is bringing popular content to everyone as quickly as possible and it gives the possibility for all of the users to share their opinions on whatever matter is being discussed.
+
 ##User Characteristics
+Reddit community is consists usually of young male users, with no specific range of educational level. As of May 2013, 15% of the internet users between the age of 18-29 say they use reddit.
+![Reddit Demographics May,2013](http://www.pewinternet.org/~/media/177A4307EC6E400F91716BD228C4B747.jpg)
+
 ##Constraints
 ##Assumptions and dependencies
 
