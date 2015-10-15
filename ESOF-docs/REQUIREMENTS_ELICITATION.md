@@ -31,13 +31,14 @@ Reddit stands out from other online bulletin board systems due to its open cultu
 It consists of a web portal used to view submissions, upvote or downvote them, access subreddits and user account management.
 
 ##Product functions
+Reddit has a lot of functions for a website, such as sending messages and archiving all of the threads that people have created. However, its main function is bringing news to everyone as quickly as possible and it gives the possibility for all of the users to share their opinions on whatever matter is being discussed.
 ##User Characteristics
 ##Constraints
 ##Assumptions and dependencies
 
 #Requirements Specification
 All of the requirements come from the users of reddit that propose them and sometimes are also implemented by them.
-##Externeal interface requirements
+##External interface requirements
 ###User interfaces
 The user is allowed to post a new thread, comment, upvote or downvote any thread and their comments.
 The user can also set a flair for each subreddit he has subscribed, tag his own posts with reddit own-flairs (usually Spoilers or NSFW).
