@@ -15,6 +15,7 @@ Reddit's content is divided into subreddits, smaller portions of reddit whose pu
 ##Definitions, acronyms, and abbreviations
 ##References
 *IEEE. IEEE Std 830-1998 IEEE Recommended Practice for Software Requirements Specifications. IEEE Computer Society, 1998.*
+*https://blog.shareaholic.com/reddit-wtf/*
 ##Overview
 The next chapter, the Overall Description section, of this document gives an overview of the functionality of the product. It describes the informal requirements and is used to establish a context for the technical requirements specification in the next chapter.
 The third chapter, Requirements Specification section, of this document is written primarily for the developers and describes in technical terms the details of the functionality of the product. 
@@ -60,8 +61,11 @@ The communication interface can be done in a number of ways. First of, users can
 #####Functional requirements 1
 ###System feature 2
 #Performance requirements
+Reddit's performance requirements keep increasing year by year. On 2013 it had 56 billion pageviews and 731 million unique pageviews. However, the servers just aren't enough. During heavy traffic times, the site usually goes down and needs maintenance. 
 ##Design constraints
+(what. the. hell. eu sei lá se é o chines ou o crl)
 ##Software systems attributes
+(perguntar flavio)
 ##Other requirements
 
 #Appendixes
