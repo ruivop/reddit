@@ -36,10 +36,18 @@ It consists of a web portal used to view submissions, upvote or downvote them, a
 ##Assumptions and dependencies
 
 #Requirements Specification
+All of the requirements come from the users of reddit that propose them and sometimes are also implemented by them.
 ##Externeal interface requirements
 ###User interfaces
+The user is allowed to post a new thread, comment, upvote or downvote any thread and their comments.
+The user can also set a flair for each subreddit he has subscribed, tag his own posts with reddit own-flairs (usually Spoilers or NSFW).
+The user can also create his own subreddit, search for terms in all of the threads existing in a subreddit and send private messages to other users.
 ###Hardware interfaces
 ###Software interfaces
+Reddit's interface is organized in 3 different sections, top bar, right sidebar and the body of the site.
+The top bar shows the user all of the subreddit he has subscribed, a few default subreddits, the friends of the user, the subreddit banner and all of the different pages that can be acessed on the subreddit: the top, new, rising, controversial, hot and gilded pages.
+The right sidebar contains the description and rules of the subreddit, the information on the number of people browsing at the moment and that the subscribers, the moderators and, sometimes, a calendar with events that are coming up.
+The body is located on the center of the page and is the most important one. It has all of the threads, the number of upvotes/downvotes on each one and the user that created it.
 ###Communications interfaces
 #System features
 ###System feature 1
