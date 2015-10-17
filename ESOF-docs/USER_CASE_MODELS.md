@@ -1,6 +1,6 @@
 #User Case Models
 ##Subreddits
-![User (subreddits)](http://i.imgur.com/1Psor9y.png?1)
+![User (subreddits)](http://i.imgur.com/vOugXTu.png?1)
 ###Create a subreddit
 Access the sidebar and click the button "Create your own subreddit".
 
@@ -34,7 +34,7 @@ Change banned and muted users.
 
 Edit flairs.
 ##Threads
-![User (threads)](http://i.imgur.com/RDaTyg0.png?1)
+![User (threads)](http://i.imgur.com/xaRjfI1.png?1)
 ###Post a thread
 Access the sidebar and press "Submit a new link".
 
@@ -66,7 +66,7 @@ Fill the text box that just appeared.
 
 Press "save".
 ##Flairs
-![User (flair)](http://i.imgur.com/AYbF6mp.png?1)
+![User (flair)](http://i.imgur.com/vhrEgUo.png?1)
 ###Set a user flair
 Access the sidebar and press the "edit flair" next to your username.
 
@@ -76,17 +76,88 @@ Press the checkbox that says "Show my flair on this subreddit. It looks like:".
 ###Set a thread flair
 Create a thread.
 
+Submit the thread.
 
+Below the title of your thread press "flair".
 
+Change to one that is available.
 ##Communication
-![User (communication)](http://i.imgur.com/A51qvYj.png?1)
+![User (communication)](http://i.imgur.com/w8ho3XX.png?1)
 ###Send private messages
+Access www.reddit.com/user/username in which username is the user you want to send a message to.
 ##User preferences
-![User (preferences)](http://i.imgur.com/WO0Yv8A.png?1)
+![User (preferences)](http://i.imgur.com/Y95p4xM.png?1)
 ###Change options
+In the right side of the screen press "Preferences" next to your username.
+
+Change the link, comment, messaging, display, content, privacy and beta options.
 ###Manage applications
+In the right side of the screen press "Preferences" next to your username.
+
+Press "apps" in the tabs menu.
+
+Manage your authorized applications (either revoke their access or don't).
 ###Access RSS feeds
+In the right side of the screen press "Preferences" next to your username.
+
+Press "RSS feeds" in the tabs menu.
+
+Access the private and moderator listings, private profile pages, user inbox and moderator inbox.
 ###Add friends
-###Block users
-###Change password and e-mail
+In the right side of the screen press "Preferences" next to your username.
+
+Press "friends" in the tabs menu.
+
+Fill the text box with the username of whom you want to add as a friend.
+###Block users from messaging
+Receive a message from the user you want to block.
+
+In the right side of the screen, press the envelope next to your username.
+
+Press "messages" in the tabs menu.
+
+Search for a message from the user you want to block.
+
+Press "block user" below the message.
+
+Press "yes".
+###Unblock users from messaging
+In the right side of the screen press "Preferences" next to your username.
+
+Press "blocked" in the tabs menu.
+
+Search for the user you want to remove from your blocked list, and press "remove" next to their username.
+
+Press "yes."
+###Change e-mail
+In the right side of the screen press "Preferences" next to your username.
+
+Press "password/email" in the tabs menu.
+
+Input your password.
+
+Change your e-mail.
+
+Press "save".
+###Change password
+In the right side of the screen press "Preferences" next to your username.
+
+Press "password/email" in the tabs menu.
+
+Input your password.
+
+Input your password twice.
+
+Press "save".
 ###Deleting the account
+In the right side of the screen press "Preferences" next to your username.
+
+Press "delete" in the tabs menu.
+
+Input your account credentials.
+
+Optionally, fill the text area explaining why you're deleting the account.
+
+Press the checkbox saying "I understand that deleted accounts are not recoverable".
+
+Press "delete account".
