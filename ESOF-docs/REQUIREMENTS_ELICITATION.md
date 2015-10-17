@@ -19,7 +19,7 @@ Reddit's content is divided into subreddits, smaller portions of reddit whose pu
 
 *Duggan, Maeve and Aaron Smith (2013, July 23). 6% of Online Adults are reddit Users. Retrieved from http://pewinternet.org/ .*
 
-* https://blog.shareaholic.com/reddit-wtf/ *
+*https://blog.shareaholic.com/reddit-wtf/ .*
 
 ##Overview
 The next chapter, the Overall Description section, of this document gives an overview of the functionality of the product. It describes the informal requirements and is used to establish a context for the technical requirements specification in the next chapter.
@@ -99,9 +99,9 @@ The user is allowed to post a new thread, comment, upvote or downvote any thread
 The user can also set a flair for each subreddit he has subscribed, tag his own posts with reddit own-flairs (usually Spoilers or NSFW).
 The user can also create his own subreddit, search for terms in all of the threads existing in a subreddit and send private messages to other users.
 ###Hardware interfaces
-(to be done, what the hell is this)
+Reddit doesn't have an hardware interface.
 ###Software interfaces
-Reddit's inrterface is organized in 3 different sections, top bar, right sidebar and the body of the site.
+Reddit's interface is organized in 3 different sections, top bar, right sidebar and the body of the site.
 The top bar shows the user all of the subreddit he has subscribed, a few default subreddits, the friends of the user, the subreddit banner and all of the different pages that can be acessed on the subreddit: the top, new, rising, controversial, hot and gilded pages.
 The right sideba contains the description and rules of the subreddit, the information on the number of people browsing at the moment and that the subscribers, the moderators and, sometimes, a calendar with events that are coming up.
 The body is located on the center of the page and is the most important one. It has all of the threads, the number of upvotes/downvotes on each one and the user that created it.
@@ -117,9 +117,24 @@ The communication interface can be done in a number of ways. First of, users can
 #Performance requirements
 Reddit's performance requirements keep increasing year by year. On 2013 it had 56 billion pageviews and 731 million unique pageviews. However, the servers just aren't enough. During heavy traffic times, the site usually goes down and needs maintenance. 
 ##Design constraints
-(what. the. hell. eu sei lá se é o chines ou o crl)
+Reddit's design constraints are not public code, do to security purposes. So, we can't be precise on the design constraints.
 ##Software systems attributes
-(perguntar flavio)
+###Accessibility
+Reddit can be accessed through any computer and any browser given that it has internet connection.
+###Compatibility
+Reddit has immense adaptability, as it runs smoothly on every web browser.
+###Affordability
+Reddit has 0 costs for the user, being sustained by advertisement and reddit gold, which is coin bought by users to offer each other. This gold gives a few perks to who owns it.
+###Customizability
+Reddit is extremely customizable, as the owner of a subreddit is allowed to change his stylesheet and create something completely different from other subreddits. However, they all have the same layout.
+###Durability
+Reddit archives all of the threads for several years. Users can access threads up to 4 years old.
+###Maintainability
+Reddit's servers run on Apache Cassandra and are maintained by the company.
+###Reliability
+Reddis is extremely reliable when it comes to its main function. However, the servers tend to lag on rush hours.
+###Stability
+As mentioned before, reddit tends to lag and sometimes even crash during rush hours.
 ##Other requirements
 
 #Appendixes
