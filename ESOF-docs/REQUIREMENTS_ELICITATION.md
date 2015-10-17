@@ -74,7 +74,7 @@ Reddit has a lot of functions for a website, such as sending messages and archiv
 
 ###User Characteristics
 Reddit community is consists usually of young male users, with no specific range of educational level. According to [PewResearchCenter](http://pewinternet.org) As of May 2013, 15% of the internet users between the age of 18-29 say they use reddit.
-![Reddit Demographics May,2013](http://www.pewinternet.org/~/media/177A4307EC6E400F91716BD228C4B747.jpg)
+![Reddit Demographics May,2013](http://www.pewinternet.org/files/old-media/177A4307EC6E400F91716BD228C4B747.jpg)
 
 ###Constraints
 ###Assumptions and dependencies
