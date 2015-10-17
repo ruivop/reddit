@@ -1,4 +1,32 @@
-#Introduction
+#Index
+[Introduction](#Introduction)
+	Purpose
+	Scope
+	Definitions, acronyms, and abbreviations
+	References
+	Overview
+[Overall description](#Overall description)
+	Product perspective
+	Product functions
+	User Characteristics
+	Constraints
+	Assumptions and dependencies
+		Servers
+		Libraries
+		Misc. Utilities
+[Requirements Specification](#Requirements Specification)
+	External interface requirements
+		User interfaces
+		Hardware interfaces
+		Software interfaces)
+		Communications interfaces
+[System features](#System features)
+[Performance requirements](#Performance requirements)
+	Design constraints
+	Software systems attributes
+	Other requirements
+
+# Introduction
 ##Purpose
 
 The purpose of this document is to present a detailed description of Reddit.
@@ -26,7 +54,7 @@ The next chapter, the Overall Description section, of this document gives an ove
 The third chapter, Requirements Specification section, of this document is written primarily for the developers and describes in technical terms the details of the functionality of the product. 
 
 
-#Overall description
+# Overall description
 This section will give an overview of the whole system. The system will be explained in its context to
 show how the system interacts with other systems and introduce the basic functionality of it. It will also
 describe what type of stakeholders that will use the system and what functionality is available for each
@@ -91,7 +119,7 @@ less.js      | 1.4+    | `node-less` (reddit ppa)               | CSS Precompile
 uglify.js    | 1.3+    | `node-uglify` (reddit ppa)             | Javascript compression
 
 
-#Requirements Specification
+# Requirements Specification
 All of the requirements come from the users of reddit that propose them and sometimes are also implemented by them.
 ##External interface requirements
 ###User interfaces
@@ -107,14 +135,14 @@ The right sideba contains the description and rules of the subreddit, the inform
 The body is located on the center of the page and is the most important one. It has all of the threads, the number of upvotes/downvotes on each one and the user that created it.
 ###Communications interfaces
 The communication interface can be done in a number of ways. First of, users can send each other private messages and communicate that way. However, as the whole idea of reddit is to bring the news as quickly as possible, users can communicate inside threads, replying to comments from each other.
-#System features
+# System features
 ###System feature 1
 ####Introduction/Purpose of feature
 ####Stimulus/Response sequence
 ####Associated functional requirements
 #####Functional requirements 1
 ###System feature 2
-#Performance requirements
+# Performance requirements
 Reddit's performance requirements keep increasing year by year. On 2013 it had 56 billion pageviews and 731 million unique pageviews. However, the servers just aren't enough. During heavy traffic times, the site usually goes down and needs maintenance. 
 ##Design constraints
 Reddit's design constraints are not public code, do to security purposes. So, we can't be precise on the design constraints.
@@ -136,35 +164,6 @@ Reddis is extremely reliable when it comes to its main function. However, the se
 ###Stability
 As mentioned before, reddit tends to lag and sometimes even crash during rush hours.
 ##Other requirements
-
-
-#Index
-[Introduction](#Introduction)
-	[Purpose](##Purpose)
-	[Scope](##Scope)
-	[Definitions, acronyms, and abbreviations](##Definitions, acronyms, and abbreviations)
-	[References](##References)
-	[Overview](##Overview)
-[Overall description](#Overall description)
-	[Product perspective](##Product perspective)
-	[Product functions](##Product functions)
-	[User Characteristics](##User Characteristics)
-	[Constraints](##Constraints)
-	[Assumptions and dependencies](##Assumptions and dependencies)
-		[Servers](### Servers)
-		[Libraries](### Libraries)
-		[Misc. Utilities](### Misc. Utilities)
-[Requirements Specification](#Requirements Specification)
-	[External interface requirements](#External interface requirements)
-		[User interfaces](###User interfaces)
-		[Hardware interfaces](###Hardware interfaces)
-		[Software interfaces](###Software interfaces)
-		[Communications interfaces](###Communications interfaces)
-[System features](#System features)
-[Performance requirements](#Performance requirements)
-	[Design constraints](##Design constraints)
-	[Software systems attributes](####Software systems attributes)
-	[Other requirements](##Other requirements)
 
 #Authors
 Duarte Pinto - up201304777@fe.up.pt
