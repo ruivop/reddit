@@ -1,3 +1,5 @@
+#Requirements Elicitation
+
 ##Index
 
 1. [Introduction](#introduction)
@@ -168,6 +170,6 @@ As mentioned before, reddit tends to lag and sometimes even crash during rush ho
 ###Other requirements
 
 ##Authors
-Duarte Pinto - up201304777@fe.up.pt
-João Baião - up201305195@fe.up.pt
-Miguel Botelho - up201304828@fe.up.pt
+* Duarte Pinto - up201304777@fe.up.pt
+* João Baião - up201305195@fe.up.pt
+* Miguel Botelho - up201304828@fe.up.pt
