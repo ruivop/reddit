@@ -1,30 +1,32 @@
-#Index
-[Introduction](#Introduction)
-	Purpose
-	Scope
-	Definitions, acronyms, and abbreviations
-	References
-	Overview
-[Overall description](#Overall description)
-	Product perspective
-	Product functions
-	User Characteristics
-	Constraints
-	Assumptions and dependencies
-		Servers
-		Libraries
-		Misc. Utilities
-[Requirements Specification](#Requirements Specification)
-	External interface requirements
-		User interfaces
-		Hardware interfaces
-		Software interfaces)
-		Communications interfaces
-[System features](#System features)
-[Performance requirements](#Performance requirements)
-	Design constraints
-	Software systems attributes
-	Other requirements
+##Index
+
+1. [Introduction](#introduction)
+	* Purpose
+	* Scope
+	* Definitions, acronyms, and abbreviations
+	* References
+	* Overview
+2. [Overall description](#overall-description)
+	* Product perspective
+	* Product functions
+	* User Characteristics
+	* Constraints
+	* Assumptions and dependencies
+		* Servers
+		* Libraries
+		* Misc. Utilities
+3. [Requirements Specification](#requirements-specification)
+	* External interface requirements
+		* User interfaces
+		* Hardware interfaces
+		* Software interfaces)
+		* Communications interfaces
+4. [System features](#system-features)
+5. [Performance requirements](#performance-requirements)
+	* Design constraints
+	* Software systems attributes
+	* Other requirements
+
 
 ## Introduction
 ###Purpose
@@ -54,7 +56,7 @@ The next chapter, the Overall Description section, of this document gives an ove
 The third chapter, Requirements Specification section, of this document is written primarily for the developers and describes in technical terms the details of the functionality of the product. 
 
 
-# Overall description
+## Overall Description
 This section will give an overview of the whole system. The system will be explained in its context to
 show how the system interacts with other systems and introduce the basic functionality of it. It will also
 describe what type of stakeholders that will use the system and what functionality is available for each
@@ -119,7 +121,7 @@ less.js      | 1.4+    | `node-less` (reddit ppa)               | CSS Precompile
 uglify.js    | 1.3+    | `node-uglify` (reddit ppa)             | Javascript compression
 
 
-## Requirements Specification
+## Requirements specification
 All of the requirements come from the users of reddit that propose them and sometimes are also implemented by them.
 ###External interface requirements
 ####User interfaces
