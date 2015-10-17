@@ -18,6 +18,7 @@ It is also possible to do an advance search, adding the author of the post or th
 ###Modding a subreddit
 It is only possible to mod a subreddit if you're invited to one or if you own a subreddit.
 As a mod, you can:
+
 Change the subreddit settings.
 
 Edit the stylesheet (html).
