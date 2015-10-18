@@ -326,7 +326,6 @@ Reddit's servers run on Apache Cassandra and are maintained by the company.
 Reddis is extremely reliable when it comes to its main function. However, the servers tend to lag on rush hours.
 ####Stability
 As mentioned before, reddit tends to lag and sometimes even crash during rush hours.
-###Other requirements
 
 ##Authors
 * Duarte Pinto - up201304777@fe.up.pt
