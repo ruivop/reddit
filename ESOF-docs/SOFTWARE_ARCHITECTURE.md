@@ -1,4 +1,4 @@
-#TO DO
+#TO DO (read this *http://sparxsystems.com/resources/uml2_tutorial/ .* boys)
 
 ##Logical View
 ####UML Package Diagrams
