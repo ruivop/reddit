@@ -20,8 +20,7 @@ There are two types of connectors:
 The assembly connector connects two different components, and labeling one as the provider and the other as the consumer. This connector is defined from an interface/port to a provided one.
 
 The delegation connector links the external part of a component to its internal realization of the behavior of the component.
-
-/* inserir diagrama GG */
+![Component Diagram](http://i.imgur.com/ALqdG83.png?1)
 ##Deployment View
 ####UML Deployment Diagrams
 
