@@ -1,7 +1,39 @@
+#Software Architecture
+
+##Index
+
+1. [Introduction](#introduction)
+	* Reddit (The Software)
+	* PostgreSQL
+		* ThingDB
+		* Relational data
+	* Cassandra
+		* Memcached
+	* Asynchronous messages via RabbitMQ
+	* ZooKeeper
+	* reddit.com
+2. [4+1 view model](#4+1-view-model)
+	* Logical View
+		* UML Class diagram, Communication diagram, Sequence diagram
+	* Implementation View
+		* UML Component Diagram
+	* Deployment View
+		* UML Deployment Diagram
+	* Process View
+		* UML Activity Diagram
+	* Use Case View
+		* User Case Diagrams
+			* Subreddits
+			* Threads
+			* Flairs
+			* Communication
+			* User Preferences
+3. [References](#references)
+
 #Introduction
 In describing the architecture of reddit, it is useful to make a distinction between "reddit" the software and "reddit.com" the main user and developer of that software. reddit is able to run on a single machine, or through a data center with hundreds of machines. reddit.com is at the latter end of the spectrum and employs a few tricks that are outside of the reddit software itself as well. This architectural overview starts by describing what is intrinsic to reddit, and then goes on to explain what is currently set up for reddit.com.
 
-# reddit (the software)
+## Reddit (The Software)
 
 Unlike many other high-traffic sites, reddit is a very monolithic piece of software, for better or worse. The reddit application takes HTTP requests and does all the necessary work itself to fetch data from databases and build a proper response.
 
