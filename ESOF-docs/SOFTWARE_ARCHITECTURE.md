@@ -86,8 +86,18 @@ The assembly connector connects two different components, and labeling one as th
 The delegation connector links the external part of a component to its internal realization of the behavior of the component.
 
 ![Component Diagram](http://i.imgur.com/ALqdG83.png?1)
-##Physical View
+
+##Deployment View
+
+Deployment view shows which hardware components exist, what software they run and how they are connected. 
+The hardware components are represented as "nodes" and each node has "artifacts" representing the software.
+
 ####UML Deployment Diagrams
+
+[Reddit](https://reddit.com) is a website that can be accessed by any web browser. Although there is no official applications, reddit provides an API, so there are a lot of options to access reddit through mobile phones.
+For data store, reddit uses [PostgreSQL](http://www.postgresql.org/) and is slowly moving to [Apache Cassandra](http://cassandra.apache.org/). It uses [RabbitMQ](https://www.rabbitmq.com/) for offline processing, [HAProxy](http://www.haproxy.org/) for load balacing and [memcached](http://www.memcached.org/) for caching.
+
+![Component Diagram](http://imgur.com/0MHSzbk)
 
 ##Process View
 This view is the one who manages all of the dynamic aspects of the system, explains its processes and how they comunicate. It also addresses distribution of tasks, performance and integrators.
