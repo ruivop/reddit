@@ -13,15 +13,15 @@
 	* ZooKeeper
 	* reddit.com
 2. [4+1 view model](#4+1-view-model)
-	* Logical View
+	* [Logical View](#logical-view)
 		* UML Class diagram, Communication diagram, Sequence diagram
-	* Implementation View
+	* [Implementation View](#implementation-view)
 		* UML Component Diagram
-	* Deployment View
+	* [Deployment View](#deployment-view)
 		* UML Deployment Diagram
-	* Process View
+	* [Process View](#process-view)
 		* UML Activity Diagram
-	* Use Case View
+	* [Use Case View](#use-case-view)
 		* User Case Diagrams
 			* Subreddits
 			* Threads
@@ -96,7 +96,7 @@ Apache ZooKeeper is an effort to develop and maintain an open-source server whic
 
 TODO
 
-#Software Architecture (4+1 view model)
+#4+1 view model
 
 ##Logical View
 ####UML Class diagram, Communication diagram, Sequence diagram
