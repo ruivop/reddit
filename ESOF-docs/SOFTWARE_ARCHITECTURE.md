@@ -18,6 +18,7 @@ There are two types of connectors:
 The assembly connector connects two different components, and labeling one as the provider and the other as the consumer. This connector is defined from an interface/port to a provided one.
 
 The delegation connector links the external part of a component to its internal realization of the behavior of the component.
+
 ![Component Diagram](http://i.imgur.com/ALqdG83.png?1)
 ##Deployment View
 ####UML Deployment Diagrams
@@ -27,17 +28,18 @@ This view is the one who manages all of the dynamic aspects of the system, expla
 ####UML Activity Diagrams
 These diagrams are representations of the workflow of all of the activities and actions. The shapes used are:
 	
-	* rounded brown rectangles represent "actions"
+	- Rounded brown rectangles represent "actions"
 
-	* diamonds representing "decisions"
+	- Diamonds representing "decisions"
 	
-	* black circle states the initial state of the flow
+	- Black circle states the initial state of the flow
 	
-	* a circle with an "X" represents the final state of the flow
+	- Circle with an "X" represents the final state of the flow
 
-	* rounded green rectangles represent "activities"
+	- Rounded green rectangles represent "activities"
 
 Finally, the arrows point towards the next activity or action taken.
+
 ![Component Diagram](http://i.imgur.com/pKu8oKs.png?1)
 
 ##Use Case View
@@ -45,21 +47,5 @@ Finally, the arrows point towards the next activity or action taken.
 
 #References
 *https://www.reddit.com/r/redditdev/comments/3mztkk/making_reddit_documentation/*
-
-1 - someone has an idea
-
-2 - people in charge approve of idea and assign a developer to work on it
-
-3 - developer works on it and puts it into a pull request
-
-4 - developer makes changes based on code review and product review
-
-5 - deploy the feature to a subset of users
-
-6 - iterate on feedback
-
-7 - deploy to more users
-
-8 - iterate on feedback
-
-9 - deploy to everyone
+*https://www.reddit.com/r/redditdev/comments/tszxg/trying_to_figure_out_the_reddit_code_is_there/c4pgo4x*
+*https://www.reddit.com/r/redditdev/comments/3qjdz2/reddit_41_architectural_view_model/*
