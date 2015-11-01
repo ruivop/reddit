@@ -65,7 +65,7 @@ There is some data that's stored in a more traditional relational form, includin
 
 ### Memcached
 
-[Memcached](http://en.wikipedia.org/wiki/Memcached) is used very heavily throughout reddit to add fast-access caching. This is the first of many layers of cache that sciteit uses. Commonly used bits of pretty much anything are stored in memory so they can be quickly accessed as needed.
+[Memcached](http://en.wikipedia.org/wiki/Memcached) is used very heavily throughout reddit to add fast-access caching. This is the first of many layers of cache that reddit uses. Commonly used bits of pretty much anything are stored in memory so they can be quickly accessed as needed.
 
 There are several distinct ways
 
