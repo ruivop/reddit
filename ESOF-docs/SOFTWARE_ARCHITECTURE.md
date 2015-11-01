@@ -14,7 +14,7 @@
 	* reddit.com
 2. [4+1 View Model](#4+1-view-model)
 	* [Logical View](#logical-view)
-		* UML Class diagram, Communication diagram, Sequence diagram
+		* UML Package Diagram
 	* [Implementation View](#implementation-view)
 		* UML Component Diagram
 	* [Deployment View](#deployment-view)
@@ -101,7 +101,15 @@ The 4+1 architectural view model was designed to "describe the architecture of s
 Aside from that, the 4+1 view model deals with the design and implementation of the software, due to the assembling of architectural elements.
 
 ##Logical View
-####UML Class diagram, Communication diagram, Sequence diagram
+This view shows the most important abstractions in system as objects, object classes or packages. Its main function is to show the functionality that the system provides to end-users.
+
+####UML Package Diagram
+The package diagram focuses on the dependencies between all of the packages of a model.
+There are two types of packages: package import and package merge.
+The package import is the relationship between an importing namespace, that adds the names of the members of the package to its own namespace, and a package. This is the package by default.
+The package merge is the direct relationship between two packages, showing that its contents are to be combined, resulting in a source and a target. If an element exists within both the packages, then the source element's definition will be expanded to include the target's definition.
+
+/* inserir último diagrama e GG */
 
 ##Implemation View
 This particular view focuses on how reddit is built, which technological elements are required to run the system and its configurability, testability, etc and the existing frameworks and libraries it uses.
@@ -330,3 +338,5 @@ Press "delete account".
 *http://alistair.cockburn.us/Use+cases%2c+ten+years+later*
 *http://alistair.cockburn.us/Why+I+still+use+use+cases*
 *http://www.cs.ubc.ca/~gregor/teaching/papers/4+1view-architecture.pdf*
+*http://www.agilemodeling.com/artifacts/packageDiagram.htm*
+*http://www.uml-diagrams.org/package-diagrams.html*
