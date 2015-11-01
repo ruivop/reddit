@@ -12,7 +12,7 @@
 	* Asynchronous messages via RabbitMQ
 	* ZooKeeper
 	* reddit.com
-2. [4+1 view model](#4+1-view-model)
+2. [4+1 View Model](#4+1-view-model)
 	* [Logical View](#logical-view)
 		* UML Class diagram, Communication diagram, Sequence diagram
 	* [Implementation View](#implementation-view)
@@ -96,7 +96,9 @@ Apache ZooKeeper is an effort to develop and maintain an open-source server whic
 
 TODO
 
-#4+1 view model
+#4+1 View Model
+The 4+1 architectural view model was designed to "describe the architecture of software-intensive systems, based on the use of multiple, concurrent views". These views, that are described below, describe the system, each in its own perspective. Logical, development, process and physical views are the 4 main ones, as the use case make the +1.
+Aside from that, the 4+1 view model deals with the design and implementation of the software, due to the assembling of architectural elements.
 
 ##Logical View
 ####UML Class diagram, Communication diagram, Sequence diagram
@@ -327,3 +329,4 @@ Press "delete account".
 *https://en.wikipedia.org/wiki/Reddit*
 *http://alistair.cockburn.us/Use+cases%2c+ten+years+later*
 *http://alistair.cockburn.us/Why+I+still+use+use+cases*
+*http://www.cs.ubc.ca/~gregor/teaching/papers/4+1view-architecture.pdf*
