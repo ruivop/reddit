@@ -143,22 +143,9 @@ For data store, reddit uses [PostgreSQL](http://www.postgresql.org/) and is slow
 
 ##Process View
 This view is the one who manages all of the dynamic aspects of the system, explains its processes and how they comunicate. It also addresses distribution of tasks, performance and integrators.
-####UML Activity Diagrams
-These diagrams are representations of the workflow of all of the activities and actions. The shapes used are:
-	
-	- Rounded brown rectangles represent "actions"
-
-	- Diamonds representing "decisions"
-	
-	- Black circle states the initial state of the flow
-	
-	- Circle with an "X" represents the final state of the flow
-
-	- Rounded green rectangles represent "activities"
-
-Finally, the arrows point towards the next activity or action taken.
-
-![Component Diagram](http://i.imgur.com/pKu8oKs.png?1)
+###UML Activity Diagrams
+These diagrams are representations of the workflow of all of the activities and actions. 
+![Process View](resources/Process_View.bmp)
 
 ##Use Case View
 The use case view is a list of actions and its steps to achieve a goal. The actor (in this case the user) has follow the steps correctly to reach his main goal.
