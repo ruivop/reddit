@@ -109,7 +109,7 @@ There are two types of packages: package import and package merge.
 The package import is the relationship between an importing namespace, that adds the names of the members of the package to its own namespace, and a package. This is the package by default.
 The package merge is the direct relationship between two packages, showing that its contents are to be combined, resulting in a source and a target. If an element exists within both the packages, then the source element's definition will be expanded to include the target's definition.
 
-/* inserir último diagrama e GG */
+![Package Diagram](http://i.imgur.com/sf0990I.png?1)
 
 ##Implemation View
 This particular view focuses on how reddit is built, which technological elements are required to run the system and its configurability, testability, etc and the existing frameworks and libraries it uses.
@@ -146,6 +146,9 @@ This view is the one who manages all of the dynamic aspects of the system, expla
 ###UML Activity Diagrams
 These diagrams are representations of the workflow of all of the activities and actions. 
 ![Process View](resources/Process_View.bmp)
+
+Below is a flow diagram that represents how most of the work in reddit is done.
+![Flow Diagram](http://i.imgur.com/M01FPBo.png?1)
 
 ##Use Case View
 The use case view is a list of actions and its steps to achieve a goal. The actor (in this case the user) has follow the steps correctly to reach his main goal.
