@@ -11,7 +11,6 @@
 		* Memcached
 	* Asynchronous messages via RabbitMQ
 	* ZooKeeper
-	* reddit.com
 2. [4+1 View Model](#4+1-view-model)
 	* [Logical View](#logical-view)
 		* UML Package Diagram
@@ -91,10 +90,6 @@ Unlike a simple website that just runs on a single web server, a site like Reddi
 One product for controlling this sort of arrangement is called Apache Zookeeper.
 
 Apache ZooKeeper is an effort to develop and maintain an open-source server which enables highly reliable distributed coordination. ZooKeeper is a centralized service for maintaining configuration information, naming, providing distributed synchronization, and providing group services. All of these kinds of services are used in some form or another by distributed applications.
-
-## reddit.com
-
-TODO
 
 #4+1 View Model
 The 4+1 architectural view model was designed to "describe the architecture of software-intensive systems, based on the use of multiple, concurrent views". These views, that are described below, describe the system, each in its own perspective. Logical, development, process and physical views are the 4 main ones, as the use case make the +1.
@@ -329,12 +324,26 @@ Press "delete account".
 
 #References
 *https://www.reddit.com/r/redditdev/comments/3mztkk/making_reddit_documentation/*
+
 *https://www.reddit.com/r/redditdev/comments/tszxg/trying_to_figure_out_the_reddit_code_is_there/c4pgo4x*
+
 *https://www.reddit.com/r/redditdev/comments/3qjdz2/reddit_41_architectural_view_model/*
+
 *http://sparxsystems.com/resources/uml2_tutorial/*
+
 *https://en.wikipedia.org/wiki/Reddit*
+
 *http://alistair.cockburn.us/Use+cases%2c+ten+years+later*
+
 *http://alistair.cockburn.us/Why+I+still+use+use+cases*
+
 *http://www.cs.ubc.ca/~gregor/teaching/papers/4+1view-architecture.pdf*
+
 *http://www.agilemodeling.com/artifacts/packageDiagram.htm*
+
 *http://www.uml-diagrams.org/package-diagrams.html*
+
+##Authors
+* Duarte Pinto - up201304777@fe.up.pt
+* João Baião - up201305195@fe.up.pt
+* Miguel Botelho - up201304828@fe.up.pt
