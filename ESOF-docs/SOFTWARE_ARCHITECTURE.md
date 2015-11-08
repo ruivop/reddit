@@ -129,9 +129,9 @@ The delegation connector links the external part of a component to its internal 
 
 Reddit, specifically, uses "Model-View-Controller", a software architectural pattern that implements user interfaces. It receives a software and divides it into three parts that are connected:
 
-	The controller: sends commands to the model that updates his state. It also sends commands to the associated view to change the presentation of the model.
-	The model: stores all of the data retrieved by the commands from the controller and displayed in the view.
-	The view: the output based on the model.
+The controller: sends commands to the model that updates his state. It also sends commands to the associated view to change the presentation of the model.
+The model: stores all of the data retrieved by the commands from the controller and displayed in the view.
+The view: the output based on the model.
 ![Component Diagram](http://i.imgur.com/ALqdG83.png?1)
 
 ##Deployment View
