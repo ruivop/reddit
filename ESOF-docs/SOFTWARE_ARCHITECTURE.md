@@ -150,9 +150,6 @@ This view is the one who manages all of the dynamic aspects of the system, expla
 These diagrams are representations of the workflow of all of the activities and actions. 
 ![Process View](resources/Process_View.bmp)
 
-Below is a flow diagram that represents how most of the work in reddit is done.
-![Flow Diagram](http://i.imgur.com/M01FPBo.png?1)
-
 ##Use Case View
 The use case view is a list of actions and its steps to achieve a goal. The actor (in this case the user) has follow the steps correctly to reach his main goal.
 The analysis of the use case is important to analise all of the requirements that are requested.
