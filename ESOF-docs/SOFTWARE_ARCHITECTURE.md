@@ -21,12 +21,7 @@
 	* [Process View](#process-view)
 		* UML Activity Diagram
 	* [Use Case View](#use-case-view)
-		* User Case Diagrams
-			* Subreddits
-			* Threads
-			* Flairs
-			* Communication
-			* User Preferences
+		
 3. [References](#references)
 
 #Introduction
@@ -150,26 +145,34 @@ This view is the one who manages all of the dynamic aspects of the system, expla
 These diagrams are representations of the workflow of all of the activities and actions. 
 ![Process View](resources/Process_View.bmp)
 
+##Use Case View
+The use case view is a list of actions and its steps to achieve a goal. The actor (in this case the user) has follow the steps correctly to reach his main goal.
+The analysis of the use case is important to analise all of the requirements that are requested.
+This view provides the summary of what the system has to offer and the body of the project. It also puts everyone on sync on what needs to be done and how it has to be done.
+
+
+A representation of the use case view can be obtained in the [Requirements Elicitation](REQUIREMENTS_ELICITATION.md) document 
+
 #References
-*https://www.reddit.com/r/redditdev/comments/3mztkk/making_reddit_documentation/*
+* https://www.reddit.com/r/redditdev/comments/3mztkk/making_reddit_documentation/
 
-*https://www.reddit.com/r/redditdev/comments/tszxg/trying_to_figure_out_the_reddit_code_is_there/c4pgo4x*
+* https://www.reddit.com/r/redditdev/comments/tszxg/trying_to_figure_out_the_reddit_code_is_there/c4pgo4x
 
-*https://www.reddit.com/r/redditdev/comments/3qjdz2/reddit_41_architectural_view_model/*
+* https://www.reddit.com/r/redditdev/comments/3qjdz2/reddit_41_architectural_view_model/
 
-*http://sparxsystems.com/resources/uml2_tutorial/*
+* http://sparxsystems.com/resources/uml2_tutorial/
 
-*https://en.wikipedia.org/wiki/Reddit*
+* https://en.wikipedia.org/wiki/Reddit
 
-*http://alistair.cockburn.us/Use+cases%2c+ten+years+later*
+* http://alistair.cockburn.us/Use+cases%2c+ten+years+later
 
-*http://alistair.cockburn.us/Why+I+still+use+use+cases*
+* http://alistair.cockburn.us/Why+I+still+use+use+cases
 
-*http://www.cs.ubc.ca/~gregor/teaching/papers/4+1view-architecture.pdf*
+* http://www.cs.ubc.ca/~gregor/teaching/papers/4+1view-architecture.pdf
 
-*http://www.agilemodeling.com/artifacts/packageDiagram.htm*
+* http://www.agilemodeling.com/artifacts/packageDiagram.htm
 
-*http://www.uml-diagrams.org/package-diagrams.html*
+* http://www.uml-diagrams.org/package-diagrams.html
 
 ##Authors
 * Duarte Pinto - up201304777@fe.up.pt
