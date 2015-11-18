@@ -15,7 +15,12 @@ It can be improved by test-driven development and design for testability.
 
 
 #SECOND
-##How many tests? (unitários, sistema, desempenho, etc)
+##How many tests? (unitários, sistema, desempenho, integração, aceitação, regressão,  etc)
+White Box, Black Box.
+
+Verificação, Validação. (Técnicas dinâmicas e estáticas)
+
+
 ##Coverage of tests (EclEmma, others)
 
 
