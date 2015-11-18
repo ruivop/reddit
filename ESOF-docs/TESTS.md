@@ -2,7 +2,8 @@
 
 #TODO
 ##How testable is reddit? How to improve its testability? Testability is measured by the concepts below.
-##CUT (Component Under Test):
+It can be improved by test-driven development and design for testability.
+##CUT (Component Under Test): the component being tested
 
 #FIRST
 ##Controllability: How possible is to control the state of the CUT as required for testing
