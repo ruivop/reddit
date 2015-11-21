@@ -23,3 +23,6 @@ Reddit is primarily based on Python, 52.5% of it, next to JavaScript, 28.1%, and
 
 ##Project Model
 Although we couldn't contact any of the current developers, after analyzing several commits and mostly [/r/changelog](https://reddit.com/r/changelog) we came to the conclusion that reddit is based on the Incremental Development and Delivery process. The core of the website is already done and it has only suffered a few tweaks throughout the years. However, the rest of the changes that have been made are mostly bug fixes, security updates and the addition of new features. These features are mostly suggested and created by the community through the use of the subreddit [/r/ideasfortheadmins/](https://reddit.com/r/ideasfortheadmins). Each new feature has been evaluated by the users of the website, as the reviewers are also members.
+
+Below is a flow diagram that represents how most of the work in reddit is done.
+![Flow Diagram](http://i.imgur.com/M01FPBo.png?1)
