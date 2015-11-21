@@ -1,7 +1,11 @@
 #Tests
 
-#TODO
-##How testable is reddit? How to improve its testability? Testability is measured by the concepts below.
+#Introduction
+First of, reddit was created by a group of students to be used as an online bulletin board system. At first, the company was only a startup and reddit was supposed to be an app for ordering food. After the stakeholders (Y Combinator) received the idea, they gave their input on the subject, and reddit was created. It started with only 2 students, and no one expected it to be what it was today.
+
+##How testable is reddit?
+
+##How to improve its testability?
 It can be improved by test-driven development and design for testability.
 ##CUT (Component Under Test): the component being tested
 
