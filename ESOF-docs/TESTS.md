@@ -23,6 +23,13 @@ It can be improved by test-driven development and design for testability.
 #Software Testing
 After analysing reddit's code we found out that only two types of testing are being done, the Unit Testing and Functional Testing. However, not all of reddit's code is public, as the security part of the code is private. With this in mind, it's possible that Security Testing exists but we just don't have access to it.
 
+##Black Box Testing
+Black Box testing consists on receiving a certain input and examine the output. It has no view to the internal structure of the software, hence the name "Black Box". It receives an input, the Black Box is the internal structure, and in the end has an output. The tester is only aware of what the software is supposed to do, but doesn't need to know how the software works.
+Different types of Black Box Testing are: Acceptance Testing, Software Performance Testing and Performance Testing. 
+
+##White Box Testing
+
+
 ##Unit Testing
 Unit testing is one of the most common types of testing, as it tests the source code (the scope of the software). It tests an entire unit, that is usually conceived as the smallest testable part of the software. These tests are usually created by the developers and are short fragments. Besides that, the tests should also be independent between one another.
 
@@ -70,7 +77,7 @@ The System Testing is only conducted on a complete system to check the system's 
 
 The test is performed on the whole system and has in mind the SRS document. It tests the design, the behaviour and the expectations of the stakeholder. It can also test beyond the bounds defined in the SRS.
 
-##Acceptance Testing
+##Acceptance Testing 
 
 ##Compatibility Testing
 This test is pretty self-explanatory. It tests the software's compatibility with different types of hardware and software. It tests the hardware plataform compatibility, the bandwidth handling capacity of the network hardware, the different peripherals, the operating system used and even the browser compatibility.
@@ -79,15 +86,25 @@ This test is pretty self-explanatory. It tests the software's compatibility with
 Regression testing is used after adding a feature, patch or enhancement on the original software. It ensures that these new changes don't introduce new faults or bugs in the software. It can also check if a change on a module affects a different one. It consists on rerunning previous tests and see if the program behaviour is no longer the same and if previous faults have re-emerged.
 
 ##Software Performance Testing
+This specific type of testing tests the responsiveness and stability of the system under specific circumstances. It can also be used to measure different quality attributes in the system, such as reliability and resource usage.
 
-##Accessibility Testing
+######Load Testing
+This is the simplest form of performance testing. It tries to understand the behaviour of a system when under a specific load. It checks for the response times of all the operations, trying to identify bottlenecks (the capacity of an application is severely limited by one component) in the software.
+
+######Stress Testing
+Stress Testing is trying to use the maximum capacity of the system. It tries to understand its limits and robustness in terms of managing an extreme load, giving the developers a sense of how well the software reacts under circumstances above the expected maximum.
+
+######Soak Testing
+As explained by the name, it checks the endurance of the system. It sees how well it reacts given the expected load during a long period of time. The memory utilization is monitored during this test to detect potential leaks. It also tries to detect if the system has some sort of degradation during this soak. The ultimate goal is to discover how the system behaves under a continued use.
+
+######Spike Testing
+Again, as the name states, it gives spikes of load during a period of time. Having above maximum load during a specific frame of time and then dropping to a minimum. It determines how the system reacts to these dramativ changes and if it fails or suffers from it.
+
+######Configuration Testing
+This test tries to understand how the system behaves when different configurations are changed.
 
 ##Security Testing
-
-##Black Box Testing
-
-##White Box Testing
-
+TODO, didn't understand what the hell is this.
 
 #Validation & Verification
 
