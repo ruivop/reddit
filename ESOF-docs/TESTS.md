@@ -61,21 +61,21 @@ Even though reddit contains a folder with the functional tests, there's only a f
 ##Integration Testing
 Integration testing is the moment when different software modules are combined and tested together. The function of these tests are to verify different requirements, such as performance, functionality and reliability. There are different types of integration testing:
 
-######Big Bang
+#####Big Bang
 In this approach, most of the modules are coupled together to form a complete software system or major part of the system and then used for integration testing. This method is very effective for saving time in the integration testing process. Its biggest flaw is depending on the results of the test cases.
 
-######Top-Down and Bottom-Up
+#####Top-Down and Bottom-Up
 
-#######Bottom-Up
+######Bottom-Up
 In this approach the lowest level components are the ones being tested first, all the way up to the highest level. The biggest problem with this method is the fact that it needs all of the modules of the same development level completed.
 
-#######Top-Down
+######Top-Down
 Exactly like the method described above, but backwards. This way, it's easier to find a missing link in the software.
 
-#######Sandwich
+######Sandwich
 This method combines Bottom-Up with Top-Down.
 
-#######Risky-Hardest
+######Risky-Hardest
 In this method, the integration testing starts with the modules that are riskiest and hardest.
 
 ##Component Interface Testing
@@ -127,11 +127,11 @@ TODO, didn't understand what the hell is this.
 
 #Verification & Validation
 These two procedures are used together to check if the product meets the requirements and specifications that were determined in the beginning of the development. The V&V is usually performed by a third party with no affiliation to both parties. The validation component assures that the product meets needs of the stakeholder.
-> - PMBOK guide, a standard adopted by IEEE, defines them as follows:
 
-"Validation. The assurance that a product, service, or system meets the needs of the customer and other identified stakeholders. It often involves acceptance and suitability with external customers. Contrast with verification."
+> "Validation. The assurance that a product, service, or system meets the needs of the customer and other identified stakeholders. It often involves acceptance and suitability with external customers. Contrast with verification."
 
-"Verification. The evaluation of whether or not a product, service, or system complies with a regulation, requirement, specification, or imposed condition. It is often an internal process. Contrast with validation."
+> "Verification. The evaluation of whether or not a product, service, or system complies with a regulation, requirement, specification, or imposed condition. It is often an internal process. Contrast with validation."
+> - PMBOK guide, a standard adopted by IEEE
 
 There are two queries that are highly associated with Validation and Verification. "Are you building the right thing?" is associated with Validation, refering to the user's needs, and "Are you building it right?" associates with Verification, checking that the specifications are correctly implemented.
 
