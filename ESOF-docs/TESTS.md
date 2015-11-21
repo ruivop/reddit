@@ -80,6 +80,16 @@ The test is performed on the whole system and has in mind the SRS document. It t
 
 ##Acceptance Testing 
 
+> Formal testing conducted to determine whether or not a
+system satisfies its acceptance criteria and to enable a
+customer, a user, or other authorized entity to determine
+whether or not to accept the system
+
+> - IEEE Standard Glossary of Software Engineering Terminology 610.12-1990 
+
+Usually acceptance testing is of the responsibility of the customer.
+As of November 21st 2015, Reddit.com is the 35th most visted website worldwide. Due to the large number of daily users(costumers) it is safe to assume that when it comes to acceptance testing reddit is well prepared.
+
 ##Compatibility Testing
 This test is pretty self-explanatory. It tests the software's compatibility with different types of hardware and software. It tests the hardware plataform compatibility, the bandwidth handling capacity of the network hardware, the different peripherals, the operating system used and even the browser compatibility.
 
