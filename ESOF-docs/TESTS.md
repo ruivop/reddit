@@ -66,12 +66,17 @@ In this method, the integration testing starts with the modules that are riskies
 The Component Interface testing is the Testing used to check the data that is passed between different units and subsystems. This data is usually considered as "message packets" and the tests focus on checking unusual data values, such as extreme ones.
 
 ##System Testing
+The System Testing is only conducted on a complete system to check the system's compliance with the initial requirements. The software components tested are the ones who already passed the Integration Testing and the software system itself. System testing seeks to detect flaws within the assemblage between modules and within the system as a whole.
+
+The test is performed on the whole system and has in mind the SRS document. It tests the design, the behaviour and the expectations of the stakeholder. It can also test beyond the bounds defined in the SRS.
 
 ##Acceptance Testing
 
 ##Compatibility Testing
+This test is pretty self-explanatory. It tests the software's compatibility with different types of hardware and software. It tests the hardware plataform compatibility, the bandwidth handling capacity of the network hardware, the different peripherals, the operating system used and even the browser compatibility.
 
 ##Regression Testing
+Regression testing is used after adding a feature, patch or enhancement on the original software. It ensures that these new changes don't introduce new faults or bugs in the software. It can also check if a change on a module affects a different one. It consists on rerunning previous tests and see if the program behaviour is no longer the same and if previous faults have re-emerged.
 
 ##Software Performance Testing
 
