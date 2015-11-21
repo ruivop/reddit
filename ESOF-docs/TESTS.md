@@ -117,8 +117,21 @@ This test tries to understand how the system behaves when different configuratio
 ##Security Testing
 TODO, didn't understand what the hell is this.
 
-#Validation & Verification
+#Verification & Validation
+These two procedures are used together to check if the product meets the requirements and specifications that were determined in the beginning of the development. The V&V is usually performed by a third party with no affiliation to both parties. The validation component assures that the product meets needs of the stakeholder.
+> - PMBOK guide, a standard adopted by IEEE, defines them as follows:
 
+"Validation. The assurance that a product, service, or system meets the needs of the customer and other identified stakeholders. It often involves acceptance and suitability with external customers. Contrast with verification."
+
+"Verification. The evaluation of whether or not a product, service, or system complies with a regulation, requirement, specification, or imposed condition. It is often an internal process. Contrast with validation."
+
+There are two queries that are highly associated with Validation and Verification. "Are you building the right thing?" is associated with Validation, refering to the user's needs, and "Are you building it right?" associates with Verification, checking that the specifications are correctly implemented.
+
+##Verification
+Verification is used to determine if a product meets the design specifications. During development, the verification involves performing special tests to simulate a piece of the system, or the entirety of the system. Afterwards, it performs a review of the results. This procedure repeats tests specifically made to ensure that the product is in order with the initial design requirements. It is often an internal process.
+
+##Validation
+Validation is the primary method to check if a product is a product that meets the operational needs of the people who use it. Validation procedures focus around modeling development and verification flow, and using the simulations to predict "bugs" and flaws in the system that may lead to incomplete verification of the product. A set of validation requirements and specifications are used to qualify the flows of the product. This process establishes evidence of high degree of assurance that the product is meeting the intended requirements. It is usually an external process.
 
 #Coverage of tests (EclEmma, others)
 
