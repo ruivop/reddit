@@ -21,6 +21,7 @@ It can be improved by test-driven development and design for testability.
 
 
 #Software Testing
+After analysing reddit's code we found out that only two types of testing are being done, the Unit Testing and Functional Testing. However, not all of reddit's code is public, as the security part of the code is private. With this in mind, it's possible that Security Testing exists but we just don't have access to it.
 
 ##Unit Testing
 Unit testing is one of the most common types of testing, as it tests the source code (the scope of the software). It tests an entire unit, that is usually conceived as the smallest testable part of the software. These tests are usually created by the developers and are short fragments. Besides that, the tests should also be independent between one another.
@@ -42,8 +43,27 @@ Functional testing is a type of Black Box Testing () whose tests are based on th
 Even though reddit contains a folder with the functional tests, there's only a file init.py, with 20 lines and it's mostly a license.
 
 ##Integration Testing
+Integration testing is the moment when different software modules are combined and tested together. The function of these tests are to verify different requirements, such as performance, functionality and reliability. There are different types of integration testing:
+
+######Big Bang
+In this approach, most of the modules are coupled together to form a complete software system or major part of the system and then used for integration testing. This method is very effective for saving time in the integration testing process. Its biggest flaw is depending on the results of the test cases.
+
+######Top-Down and Bottom-Up
+
+#######Bottom-Up
+In this approach the lowest level components are the ones being tested first, all the way up to the highest level. The biggest problem with this method is the fact that it needs all of the modules of the same development level completed.
+
+#######Top-Down
+Exactly like the method described above, but backwards. This way, it's easier to find a missing link in the software.
+
+#######Sandwich
+This method combines Bottom-Up with Top-Down.
+
+#######Risky-Hardest
+In this method, the integration testing starts with the modules that are riskiest and hardest.
 
 ##Component Interface Testing
+The Component Interface testing is the Testing used to check the data that is passed between different units and subsystems. This data is usually considered as "message packets" and the tests focus on checking unusual data values, such as extreme ones.
 
 ##System Testing
 
