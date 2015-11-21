@@ -8,7 +8,12 @@ After analysing all of the tests that reddit has (on their public source code), 
 ##How testable is reddit?
 
 ##How to improve its testability?
-It can be improved by test-driven development and design for testability.
+**Test-driven development (TDD)** is a software development process that relies on the repetition of a very short development cycle: first the developer writes an (initially failing) automated test case that defines a desired improvement or new function, then produces the minimum amount of code to pass that test, and finally refactors the new code to acceptable standards.
+
+**Design for testability** is the design technique that focus in developing software that can be easily tested through automated tests. This helps ensure that software is easy to test and that new tests can easily be made in order to increase the tests coverage. 
+
+Both of this techniques can be used to improve reddit testability. 
+
 ##CUT (Component Under Test): the component being tested
 
 #FIRST
