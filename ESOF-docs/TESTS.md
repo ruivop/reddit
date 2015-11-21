@@ -25,10 +25,11 @@ After analysing reddit's code we found out that only two types of testing are be
 
 ##Black Box Testing
 Black Box testing consists on receiving a certain input and examine the output. It has no view to the internal structure of the software, hence the name "Black Box". It receives an input, the Black Box is the internal structure, and in the end has an output. The tester is only aware of what the software is supposed to do, but doesn't need to know how the software works.
-Different types of Black Box Testing are: Acceptance Testing, Software Performance Testing and Performance Testing. 
 
 ##White Box Testing
+Opposed to Black Box Testing, White Box Testing is a method that tests the internal structure of the software. To develop this type of testing, the tester is required to have an internal perspective of the system and then it chooses different inputs and determine the correct outputs.
 
+This type of testing can be used in unit, integration and system levels of testing. Even though it can discover a lot of errors and flaws within the CUT, it can also miss unimplemented parts of the initial requirements.
 
 ##Unit Testing
 Unit testing is one of the most common types of testing, as it tests the source code (the scope of the software). It tests an entire unit, that is usually conceived as the smallest testable part of the software. These tests are usually created by the developers and are short fragments. Besides that, the tests should also be independent between one another.
