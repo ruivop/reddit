@@ -1,4 +1,4 @@
-#Tests
+#Software Testing
 
 #Introduction
 First of, reddit was created by a group of students to be used as an online bulletin board system. At first, the company was only a startup and reddit was supposed to be an app for ordering food. After the stakeholders (Y Combinator) received the idea, they gave their input on the subject, and reddit was created. It started with only 2 students, and no one expected it to be what it was today.
@@ -18,15 +18,44 @@ It can be improved by test-driven development and design for testability.
 ##Heterogeneity: How many techonologies are required to run all the test methods and tools.
 
 
-#SECOND
-##How many tests? (unitários, sistema, desempenho, integração, aceitação, regressão,  etc)
-White Box, Black Box.
+#Software Testing
 
-Verificação, Validação. (Técnicas dinâmicas e estáticas)
+##Unit Testing
+
+##Functional Testing
+Functional testing is a type of Black Box Testing () whose tests are based on the specifications of the software CUT. They accept different inputs and then the output is examined, leaving the structure of the program out of the equation. This type of test only shows what the software is doing.
+
+Even though reddit contains a folder with the functional tests, there's only a file init.py, with 20 lines and it's mostly a license.
+
+##Integration Testing
+
+##Component Interface Testing
+
+##System Testing
+
+##Acceptance Testing
+
+##Compatibility Testing
+
+##Regression Testing
+
+##Software Performance Testing
+
+##Accessibility Testing
+
+##Security Testing
 
 
-##Coverage of tests (EclEmma, others)
+#Validation & Verification
 
 
-#THIRD
-##Find a bug report, create test cases to reproduce it, fix it, using automated software fault diagnosis techniques.
+#Coverage of tests (EclEmma, others)
+
+
+#Bug
+
+##Bug Report
+
+##Test Cases
+
+##Automated software fault diagnosis
