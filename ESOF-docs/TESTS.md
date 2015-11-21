@@ -5,6 +5,9 @@ First of, reddit was created by a group of students to be used as an online bull
 
 After analysing all of the tests that reddit has (on their public source code), we found out they are poor documented, are scrambled throughout folders and not entirely organized. There are tests that test the validity of a comment on a folder and then, on a different folder, we found tests that check the limit of a comment. Even the tests that are indeed documented (very few) are mostly unintelligible.
 
+##Definitions, acronyms, and abbreviations
+* CUT (Component Under Test): the component being tested.
+
 ##How testable is reddit?
 
 ##How to improve its testability?
@@ -13,8 +16,6 @@ After analysing all of the tests that reddit has (on their public source code), 
 **Design for testability** is the design technique that focus in developing software that can be easily tested through automated tests. This helps ensure that software is easy to test and that new tests can easily be made in order to increase the tests coverage. 
 
 Both of this techniques can be used to improve reddit testability. 
-
-##CUT (Component Under Test): the component being tested
 
 #FIRST
 ##Controllability: How possible is to control the state of the CUT as required for testing
