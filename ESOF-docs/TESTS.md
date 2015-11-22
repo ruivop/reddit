@@ -19,13 +19,23 @@ After analysing all of the tests that reddit has (on their public source code), 
 
 Both of this techniques can be used to improve reddit testability. 
 
-#FIRST
-##Controllability: How possible is to control the state of the CUT as required for testing
-##Observability: How possible is to observe intermediate and final test results.
-##Isolateability: How much CUT can be tested in isolation-
-##Separation of concerns: How much every test is separated. i.e. are they all on the same test? are they well separated.
-##Understandability: How well is CUT documented and easy to understand.
-##Heterogeneity: How many techonologies are required to run all the test methods and tools.
+##Controllability
+####How possible is to control the state of the CUT as required for testing
+
+##Observability
+####How possible is to observe intermediate and final test results.
+
+##Isolateability
+####How much CUT can be tested in isolation-
+
+##Separation of concerns
+####How much every test is separated. i.e. are they all on the same test? are they well separated.
+
+##Understandability
+####How well is CUT documented and easy to understand.
+
+##Heterogeneity
+####How many techonologies are required to run all the test methods and tools.
 
 
 #Software Testing
