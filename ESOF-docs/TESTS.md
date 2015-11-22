@@ -22,13 +22,14 @@ After analysing all of the tests that reddit has (on their public source code), 
 Both of this techniques can be used to improve reddit testability. 
 
 ##Controllability
-Most of reddit's components can be controlled fairly easy. That is what happens for most of the tests as a mock Component is created and it's state is changed on the run through direct accessors methods.
+Most of reddit's components can be controlled fairly easily. That is what happens for most of the tests as a mock Component is created and it's state is changed on the run through direct accessors methods.
 
 ##Observability
 Throughout our tests we found it dificult to run most of the tests, as it will be explained further in the section [Coverage of tests](#coverage-of-tests).
 As so, we found that reddit's degree of observability is inconclusive.
 
 ##Isolateability
+Altought it depends on the CUT we are analysing, as it can be seen in the tests, there is a limited number of tests that can be executed if you isolate the component. Because reddit is built to accommodate a large number of instances of each model (users, subreddits, posts, and others) most of the tests require it to be populated with a significant ammount of data. Despite this, most models allow for a mock component to be instantiated fairly easily which makes isolation of each CUT easier. This is the technique that is used throughout the diferent tests.
 
 
 ##Separation of concerns
