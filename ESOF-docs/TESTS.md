@@ -28,11 +28,11 @@ Both of this techniques can be used to improve reddit testability.
 ####How possible is to observe intermediate and final test results.
 
 ##Isolateability
-####How much CUT can be tested in isolation-
 
 ##Separation of concerns
 ####Unit tests 
 Unit tests are separated into three diferent packages:
+
 * config 
 * lib
 * models
@@ -45,6 +45,7 @@ Tests the functions related to back-end side of reddit, like testing the ulrpars
 
 
 Appart from this this package contains three other packages inside:
+
 * **authorize** - test the *API* authorizations. 
 * **providers** - mainly tests image resizing.
 * **validator** - tests validation of inputted information such as password validation, emails and subreddit's names. 
