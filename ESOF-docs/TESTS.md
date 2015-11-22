@@ -7,7 +7,7 @@
 	* How testable is reddit?
 	* How to improve its testability?
 
-2. [Testability of Software](#4+1-view-model)
+2. [Testability of Software](#-testability-of-software)
 	* [Controllability](#controllability)
 		* UML Package Diagram
 	* [Observability](#observability)
@@ -51,11 +51,6 @@
 	* Validation
 4. [Coverage of Tests](#coverage-of-tests)
 
-5. [Bug](#bug)
-	* Bug Report
-	* Test Cases
-	* Automated Software Fault Diagnosis
-
 #Introduction
 First of, reddit was created by a group of students to be used as an online bulletin board system. At first, the company was only a startup and reddit was supposed to be an app for ordering food. After the stakeholders (Y Combinator) received the idea, they gave their input on the subject, and reddit was created. It started with only 2 students, and no one expected it to be what it is today.
 
@@ -79,6 +74,8 @@ However, trying to run any type of testing on reddit is near impossible because 
 **Design for testability** is the design technique that focus in developing software that can be easily tested through automated tests. This helps ensure that software is easy to test and that new tests can easily be made in order to increase the tests coverage. 
 
 Both of this techniques can be used to improve reddit testability. 
+
+#Testability of Software
 
 ##Controllability
 Most of reddit's components can be controlled fairly easily. That is what happens for most of the tests as a mock Component is created and it's state is changed on the run through direct accessors methods.
@@ -245,11 +242,3 @@ The tests were run one by one and most of them gave back errors, so the results 
 ![Coverage](resources/coverage.png)
 
 As we can see (even though it's inconclusive), reddit's coverage is pretty poor, standing on a 26% coverage. 
-
-#Bug
-
-##Bug Report
-
-##Test Cases
-
-##Automated software fault diagnosis
