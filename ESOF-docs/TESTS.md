@@ -64,6 +64,8 @@ After analysing all of the tests that reddit has (on their public source code), 
 ##Definitions, acronyms, and abbreviations
 * CUT : *Component Under Test*. The component being tested.
 * TDD : Test-driven development.
+* Post : a thread.
+* OP : *Original Poster*. The person who begins the selected post in that particular subreddit.
 
 
 ##How testable is reddit?
@@ -78,13 +80,49 @@ However, trying to run any type of testing on reddit is near impossible because 
 
 Both of this techniques can be used to improve reddit testability. 
 
-#FIRST
-##Controllability: How possible is to control the state of the CUT as required for testing
-##Observability: How possible is to observe intermediate and final test results.
-##Isolateability: How much CUT can be tested in isolation-
-##Separation of concerns: How much every test is separated. i.e. are they all on the same test? are they well separated.
-##Understandability: How well is CUT documented and easy to understand.
-##Heterogeneity: How many techonologies are required to run all the test methods and tools.
+##Controllability
+Most of reddit's components can be controlled fairly easily. That is what happens for most of the tests as a mock Component is created and it's state is changed on the run through direct accessors methods.
+
+##Observability
+Throughout our tests we found it dificult to run most of the tests, as it will be explained further in the section [Coverage of tests](#coverage-of-tests).
+As so, we found that reddit's degree of observability is inconclusive.
+
+##Isolateability
+Altought it depends on the CUT we are analysing, as it can be seen in the tests, there is a limited number of tests that can be executed if you isolate the component. Because reddit is built to accommodate a large number of instances of each model (users, subreddits, posts, and others) most of the tests require it to be populated with a significant ammount of data. Despite this, most models allow for a mock component to be instantiated fairly easily which makes isolation of each CUT easier. This is the technique that is used throughout the diferent tests.
+
+
+##Separation of concerns
+####Unit tests 
+Unit tests are separated into three diferent packages:
+
+* config 
+* lib
+* models
+
+######Config
+Tests the functions related to the diferent features of each user account. Example: test admin features, beta testers features, gold accounts, etc...) 
+
+######Lib
+Tests the functions related to back-end side of reddit, like testing the ulrparsing, css filtering, cookie management and others.
+
+
+Appart from this this package contains three other packages inside:
+
+* **authorize** - test the *API* authorizations. 
+* **providers** - mainly tests image resizing.
+* **validator** - tests validation of inputted information such as password validation, emails and subreddit's names. 
+
+######Models
+This package tests reddit's AI, like the sorting of posts after being upvoted or comment sorting after a responded by the OP. 
+
+It also tests the update of the database after user interactions such as comments and upvotes. 
+
+
+##Understandability
+Although there isn't any proper documentation(you can find some comments occasionally) most things aren't very hard to understand if you are familiarized with how reddit.com works. 
+
+##Heterogeneity
+The source code of reddit is mostly written in Python. After searching for a while, we came to the conclusion that [coverage.py](http://coverage.readthedocs.org/en/latest/) was the best tool to use. After installing reddit on Ubuntu through the script a mock subreddit needs to be set up and populated with enough data. Only then can the provided tests be ran. 
 
 
 #Software Testing
