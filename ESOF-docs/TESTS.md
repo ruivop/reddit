@@ -123,7 +123,8 @@ Again, as the name states, it gives spikes of load during a period of time. Havi
 This test tries to understand how the system behaves when different configurations are changed.
 
 ##Security Testing
-TODO, didn't understand what the hell is this.
+This type of test is executed to check if the product is secured. It verifies if the product is vulnerable to attacks, if there is an attempt of hack or an unauthorized login. It also determines, if the system is breached, if the product protects the data, mantains all of the functionalities and stops any type of information leak.
+
 
 #Verification & Validation
 These two procedures are used together to check if the product meets the requirements and specifications that were determined in the beginning of the development. The V&V is usually performed by a third party with no affiliation to both parties. The validation component assures that the product meets needs of the stakeholder.
