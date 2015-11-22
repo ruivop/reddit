@@ -1,5 +1,61 @@
 #Software Testing
 
+##Index
+
+1. [Introduction](#introduction)
+	* Definitions, acronyms and abbreviations
+	* How testable is reddit?
+	* How to improve its testability?
+
+2. [Testability of Software](#4+1-view-model)
+	* [Controllability](#controllability)
+		* UML Package Diagram
+	* [Observability](#observability)
+		* UML Component Diagram
+	* [Separation Of Concerns](#separation-of-concerns)
+		* UML Deployment Diagram
+	* [Understandability](#understandability)
+		* UML Activity Diagram
+	* [Heterogeneity](#heterogeneity)
+
+2. [Software Testing](#software-testing-1)
+	* [Black Box Testing](#black-box-testing)
+	* [White Box Testing](#white-box-testing)
+	* [Unit Testing](#unit-testing)
+		* Config
+		* Lib
+		* Models
+	* [Functional Testing](#functional-testing)
+	* [Integration Testing](#integration-testing)
+		* Big Bang
+		* Top-Down and Bottom-Up
+			* Bottom-Up
+			* Top-Down
+			* Sandwich
+			* Risky-Hardest
+	* [Component Interface Testing](#component-interface-testing)
+	* [System Testing](#system-testing)
+	* [Acceptance Testing](#acceptance-testing)
+	* [Compatibility Testing](#compatibility-testing)
+	* [Regression Testing](#regression-testing)
+	* [Software Performance Testing](#software-performance-testing)
+		* Load Testing
+		* Stress Testing
+		* Soak Testing
+		* Spike Testing
+		* Configuration Testing
+	* [Security Testing](#security-testing)
+
+3. [Verification & Validation](#verifcation--validation)
+	* Verification
+	* Validation
+4. [Coverage of Tests](#coverage-of-tests)
+
+5. [Bug](#bug)
+	* Bug Report
+	* Test Cases
+	* Automated Software Fault Diagnosis
+
 #Introduction
 First of, reddit was created by a group of students to be used as an online bulletin board system. At first, the company was only a startup and reddit was supposed to be an app for ordering food. After the stakeholders (Y Combinator) received the idea, they gave their input on the subject, and reddit was created. It started with only 2 students, and no one expected it to be what it is today.
 
@@ -57,7 +113,7 @@ This folder is, by far, the one with most extensive tests. Most of it is uncompr
 Different from the Config folder, even though these tests are commented, they don't use the best language for the case, as some of the comments are only understandable by the ones who created it, i.e. "This class exists to allow us to call the _qa() method on Comments without having to dick around with everything else they support". These tests work mainly on the comments from threads, creating threads and the user permissions on subreddits.
 
 ##Functional Testing
-Functional testing is a type of Black Box Testing () whose tests are based on the specifications of the software CUT. They accept different inputs and then the output is examined, leaving the structure of the program out of the equation. This type of test only shows what the software is doing.
+Functional testing is a type of black box testing whose tests are based on the specifications of the software CUT. They accept different inputs and then the output is examined, leaving the structure of the program out of the equation. This type of test only shows what the software is doing.
 
 Even though reddit contains a folder with the functional tests, there's only a file init.py, with 20 lines and it's mostly a license.
 
