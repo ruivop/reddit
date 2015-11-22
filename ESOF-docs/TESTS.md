@@ -29,6 +29,7 @@ Both of this techniques can be used to improve reddit testability.
 
 ##Isolateability
 
+
 ##Separation of concerns
 ####Unit tests 
 Unit tests are separated into three diferent packages:
@@ -57,10 +58,10 @@ It also tests the update of the database after user interactions such as comment
 
 
 ##Understandability
-####How well is CUT documented and easy to understand.
+Although there isn't any proper documentation(you can find some comments occasionally) most things aren't very hard to understand if you are familiarized with how reddit.com works. 
 
 ##Heterogeneity
-####How many techonologies are required to run all the test methods and tools.
+The source code of reddit is mostly written in Python. After searching for a while, we came to the conclusion that [coverage.py](http://coverage.readthedocs.org/en/latest/) was the best tool to use. After installing reddit on Ubuntu through the script a mock subreddit needs to be set up and populated with enough data. Only then can the provided tests be ran. 
 
 
 #Software Testing
