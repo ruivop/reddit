@@ -8,6 +8,8 @@ After analysing all of the tests that reddit has (on their public source code), 
 ##Definitions, acronyms, and abbreviations
 * CUT : *Component Under Test*. The component being tested.
 * TDD : Test-driven development.
+* Post : a thread.
+* OP : *Original Poster*. The person who begins the selected post in that particular subreddit.
 
 
 ##How testable is reddit?
@@ -29,7 +31,29 @@ Both of this techniques can be used to improve reddit testability.
 ####How much CUT can be tested in isolation-
 
 ##Separation of concerns
-####How much every test is separated. i.e. are they all on the same test? are they well separated.
+####Unit tests 
+Unit tests are separated into three diferent packages:
+* config 
+* lib
+* models
+
+######Config
+Tests the functions related to the diferent features of each user account. Example: test admin features, beta testers features, gold accounts, etc...) 
+
+######Lib
+Tests the functions related to back-end side of reddit, like testing the ulrparsing, css filtering, cookie management and others.
+
+
+Appart from this this package contains three other packages inside:
+* **authorize** - test the *API* authorizations. 
+* **providers** - mainly tests image resizing.
+* **validator** - tests validation of inputted information such as password validation, emails and subreddit's names. 
+
+######Models
+This package tests reddit's AI, like the sorting of posts after being upvoted or comment sorting after a responded by the OP. 
+
+It also tests the update of the database after user interactions such as comments and upvotes. 
+
 
 ##Understandability
 ####How well is CUT documented and easy to understand.
