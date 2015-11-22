@@ -143,10 +143,9 @@ Verification is used to determine if a product meets the design specifications. 
 Validation is the primary method to check if a product is a product that meets the operational needs of the people who use it. Validation procedures focus around modeling development and verification flow, and using the simulations to predict "bugs" and flaws in the system that may lead to incomplete verification of the product. A set of validation requirements and specifications are used to qualify the flows of the product. This process establishes evidence of high degree of assurance that the product is meeting the intended requirements. It is usually an external process.
 
 #Coverage of tests
-The source code of reddit is mostly written in Python. After searching for a while, we came to the conclusion that [coverage.py](http://coverage.readthedocs.org/en/latest/) was the best tool to use. We installed reddit on Ubuntu through the script and basically set up our own subreddit. After populating it with enough data, we ran all of the tests provided. This was our conclusion.
+The source code of reddit is mostly written in Python. After searching for a while, we came to the conclusion that [coverage.py](http://coverage.readthedocs.org/en/latest/) was the best tool to use. We installed reddit on Ubuntu through the script and basically set up our own subreddit. After populating it with enough data, we ran all of the tests provided. This was our conclusion. This was the result after running the tests one by one. Most of them gave back errors, so the results we have are pretty inconclusive. We asked on [reddit/r/redditdev](www.reddit.com/r/redditdev) for a solution, and [someone](https://www.reddit.com/user/13steinj) gave us a kind of script to run all the tests at once. After struggling a lot with python code (which we have no knowledge of), we kept getting errors. So, this is the only code coverage we were able to grab:
 
 ![Coverage](resources/coverage.png)
-
 
 As we can see, reddit's coverage is pretty poor, standing on a 26% coverage. 
 
