@@ -144,7 +144,7 @@ Validation is the primary method to check if a product is a product that meets t
 #Coverage of tests
 The source code of reddit is mostly written in Python. After searching for a while, we came to the conclusion that [coverage.py](http://coverage.readthedocs.org/en/latest/) was the best tool to use. We installed reddit on Ubuntu through the script and basically set up our own subreddit. After populating it with enough data, we ran all of the tests provided. This was our conclusion.
 
-[Coverage](resources/coverage.png)
+![Coverage](resources/coverage.png)
 
 
 As we can see, reddit's coverage is pretty poor, standing on a 26% coverage. 
