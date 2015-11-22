@@ -22,10 +22,11 @@ After analysing all of the tests that reddit has (on their public source code), 
 Both of this techniques can be used to improve reddit testability. 
 
 ##Controllability
-####How possible is to control the state of the CUT as required for testing
+Most of reddit's components can be controlled fairly easy. That is what happens for most of the tests as a mock Component is created and it's state is changed on the run through direct accessors methods.
 
 ##Observability
-####How possible is to observe intermediate and final test results.
+Throughout our tests we found it dificult to run most of the tests, as it will be explained further in the section [Coverage of tests](#coverage-of-tests).
+As so, we found that reddit's degree of observability is inconclusive.
 
 ##Isolateability
 
@@ -177,7 +178,7 @@ Verification is used to determine if a product meets the design specifications. 
 ##Validation
 Validation is the primary method to check if a product is a product that meets the operational needs of the people who use it. Validation procedures focus around modeling development and verification flow, and using the simulations to predict "bugs" and flaws in the system that may lead to incomplete verification of the product. A set of validation requirements and specifications are used to qualify the flows of the product. This process establishes evidence of high degree of assurance that the product is meeting the intended requirements. It is usually an external process.
 
-#Coverage of tests (EclEmma, others)
+#Coverage of tests
 
 
 #Bug
