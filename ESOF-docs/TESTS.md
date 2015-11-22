@@ -1,7 +1,63 @@
 #Software Testing
 
+##Index
+
+1. [Introduction](#introduction)
+	* Definitions, acronyms and abbreviations
+	* How testable is reddit?
+	* How to improve its testability?
+
+2. [Testability of Software](#4+1-view-model)
+	* [Controllability](#controllability)
+		* UML Package Diagram
+	* [Observability](#observability)
+		* UML Component Diagram
+	* [Separation Of Concerns](#separation-of-concerns)
+		* UML Deployment Diagram
+	* [Understandability](#understandability)
+		* UML Activity Diagram
+	* [Heterogeneity](#heterogeneity)
+
+2. [Software Testing](#software-testing-1)
+	* [Black Box Testing](#black-box-testing)
+	* [White Box Testing](#white-box-testing)
+	* [Unit Testing](#unit-testing)
+		* Config
+		* Lib
+		* Models
+	* [Functional Testing](#functional-testing)
+	* [Integration Testing](#integration-testing)
+		* Big Bang
+		* Top-Down and Bottom-Up
+			* Bottom-Up
+			* Top-Down
+			* Sandwich
+			* Risky-Hardest
+	* [Component Interface Testing](#component-interface-testing)
+	* [System Testing](#system-testing)
+	* [Acceptance Testing](#acceptance-testing)
+	* [Compatibility Testing](#compatibility-testing)
+	* [Regression Testing](#regression-testing)
+	* [Software Performance Testing](#software-performance-testing)
+		* Load Testing
+		* Stress Testing
+		* Soak Testing
+		* Spike Testing
+		* Configuration Testing
+	* [Security Testing](#security-testing)
+
+3. [Verification & Validation](#verifcation--validation)
+	* Verification
+	* Validation
+4. [Coverage of Tests](#coverage-of-tests)
+
+5. [Bug](#bug)
+	* Bug Report
+	* Test Cases
+	* Automated Software Fault Diagnosis
+
 #Introduction
-First of, reddit was created by a group of students to be used as an online bulletin board system. At first, the company was only a startup and reddit was supposed to be an app for ordering food. After the stakeholders (Y Combinator) received the idea, they gave their input on the subject, and reddit was created. It started with only 2 students, and no one expected it to be what it was today.
+First of, reddit was created by a group of students to be used as an online bulletin board system. At first, the company was only a startup and reddit was supposed to be an app for ordering food. After the stakeholders (Y Combinator) received the idea, they gave their input on the subject, and reddit was created. It started with only 2 students, and no one expected it to be what it is today.
 
 After analysing all of the tests that reddit has (on their public source code), we found out they are poor documented, are scrambled throughout folders and not entirely organized. There are tests that test the validity of a comment on a folder and then, on a different folder, we found tests that check the limit of a comment. Even the tests that are indeed documented (very few) are mostly unintelligible.
 
@@ -13,6 +69,9 @@ After analysing all of the tests that reddit has (on their public source code), 
 
 
 ##How testable is reddit?
+reddit can be very testable as the user has a lot of options for it. We can set up our own personal reddit on Ubuntu through the [install script](https://github.com/reddit/reddit/wiki/reddit-install-script-for-Ubuntu) that is given. After setting it up and populate it with enough data, we have our own reddit installed and ready to be used.
+
+However, trying to run any type of testing on reddit is near impossible because most of the tests can't be runned alone. In that sense, reddit is not very testable.
 
 ##How to improve its testability?
 **Test-driven development** is a software development process that relies on the repetition of a very short development cycle: first the developer writes an (initially failing) automated test case that defines a desired improvement or new function, then produces the minimum amount of code to pass that test, and finally refactors the new code to acceptable standards.
@@ -92,7 +151,7 @@ This folder is, by far, the one with most extensive tests. Most of it is uncompr
 Different from the Config folder, even though these tests are commented, they don't use the best language for the case, as some of the comments are only understandable by the ones who created it, i.e. "This class exists to allow us to call the _qa() method on Comments without having to dick around with everything else they support". These tests work mainly on the comments from threads, creating threads and the user permissions on subreddits.
 
 ##Functional Testing
-Functional testing is a type of Black Box Testing () whose tests are based on the specifications of the software CUT. They accept different inputs and then the output is examined, leaving the structure of the program out of the equation. This type of test only shows what the software is doing.
+Functional testing is a type of black box testing whose tests are based on the specifications of the software CUT. They accept different inputs and then the output is examined, leaving the structure of the program out of the equation. This type of test only shows what the software is doing.
 
 Even though reddit contains a folder with the functional tests, there's only a file init.py, with 20 lines and it's mostly a license.
 
@@ -161,7 +220,8 @@ Again, as the name states, it gives spikes of load during a period of time. Havi
 This test tries to understand how the system behaves when different configurations are changed.
 
 ##Security Testing
-TODO, didn't understand what the hell is this.
+This type of test is executed to check if the product is secured. It verifies if the product is vulnerable to attacks, if there is an attempt of hack or an unauthorized login. It also determines, if the system is breached, if the product protects the data, mantains all of the functionalities and stops any type of information leak.
+
 
 #Verification & Validation
 These two procedures are used together to check if the product meets the requirements and specifications that were determined in the beginning of the development. The V&V is usually performed by a third party with no affiliation to both parties. The validation component assures that the product meets needs of the stakeholder.
@@ -180,7 +240,11 @@ Verification is used to determine if a product meets the design specifications. 
 Validation is the primary method to check if a product is a product that meets the operational needs of the people who use it. Validation procedures focus around modeling development and verification flow, and using the simulations to predict "bugs" and flaws in the system that may lead to incomplete verification of the product. A set of validation requirements and specifications are used to qualify the flows of the product. This process establishes evidence of high degree of assurance that the product is meeting the intended requirements. It is usually an external process.
 
 #Coverage of tests
+The tests were run one by one and most of them gave back errors, so the results were pretty inconclusive. We asked on [r/redditdev](https://www.reddit.com/r/redditdev) for a solution, and [u/13steinj](https://www.reddit.com/user/13steinj) gave us a kind of script to run all the tests at once. After struggling with the script and trying to change it, we kept getting errors. So, this is the only code coverage we were able to grab:
 
+![Coverage](resources/coverage.png)
+
+As we can see (even though it's inconclusive), reddit's coverage is pretty poor, standing on a 26% coverage. 
 
 #Bug
 
