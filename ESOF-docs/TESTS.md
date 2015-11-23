@@ -64,9 +64,9 @@ After analysing all of the tests that reddit has (on their public source code), 
 
 
 ##How testable is reddit?
-reddit can be very testable as the user has a lot of options for it. We can set up our own personal reddit on Ubuntu through the [install script](https://github.com/reddit/reddit/wiki/reddit-install-script-for-Ubuntu) that is given. After setting it up and populate it with enough data, we have our own reddit installed and ready to be used.
+Theoretically, reddit can be very testable as it is possible to emulate a personal reddit in a Unix operating system through the install script that is given. 
 
-However, trying to run any type of testing on reddit is near impossible because most of the tests can't be runned alone. In that sense, reddit is not very testable.
+In practice, because reddit is used on such a large scale, trying to run any type of testing, besides basic tests, on reddit is quite dificult as most of the bugs can't be simulated on such a small scale. They require a significant amount of data to be "farmed" first. 
 
 ##How to improve its testability?
 **Test-driven development** is a software development process that relies on the repetition of a very short development cycle: first the developer writes an (initially failing) automated test case that defines a desired improvement or new function, then produces the minimum amount of code to pass that test, and finally refactors the new code to acceptable standards.
