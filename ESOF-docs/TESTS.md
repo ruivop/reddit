@@ -89,15 +89,17 @@ Altought it depends on the CUT we are analysing, as it can be seen in the tests,
 
 
 ##Separation of concerns
-####Unit tests 
-Unit tests are separated into three diferent packages:
+####Unit tests
+
+The structure of the tests mirrors the structure of the code (r2/tests/unit/config tests things in r2/config, etc.).
+Because of that, they are separated into three diferent packages:
 
 * config 
 * lib
 * models
 
 ######Config
-Tests the functions related to the diferent features of each user account. Example: test admin features, beta testers features, gold accounts, etc...) 
+The only tests being made here are to the [the feature-flagging system](https://github.com/reddit/reddit/tree/master/r2/r2/config/feature), which allows toggling sections of code according to a variety of attributes, such as admin features, beta testers features, gold accounts, and others. 
 
 ######Lib
 Tests the functions related to back-end side of reddit, like testing the ulrparsing, css filtering, cookie management and others.
@@ -110,9 +112,7 @@ Appart from this this package contains three other packages inside:
 * **validator** - tests validation of inputted information such as password validation, emails and subreddit's names. 
 
 ######Models
-This package tests reddit's AI, like the sorting of posts after being upvoted or comment sorting after a responded by the OP. 
-
-It also tests the update of the database after user interactions such as comments and upvotes. 
+The model subset of tests are for testing the various models reddit uses - that is, the object representations of data from the database, and the methods contained within them (see [ORM](https://en.wikipedia.org/wiki/Object-relational_mapping) for a description of the more general system).
 
 
 ##Understandability
