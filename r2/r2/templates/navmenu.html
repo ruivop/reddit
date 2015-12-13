@@ -101,6 +101,17 @@
           ${option}
         </li>
       %endfor
+      <li id="shareFB">
+        <script>
+        var url = "https://www.facebook.com/sharer/sharer.php?u=" + window.location.href;
+
+        function face() {
+          document.getElementById("faceS").href=url;
+          window.location=url;
+        }
+        </script>
+        <a id="faceS" href="#" onclick="face(); return false;" target="_blank">Share on Face</a>
+      </li>
     </ul>
   %endif
 </%def>
