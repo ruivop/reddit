@@ -13,3 +13,4 @@ And the share functionality, on live: ![current_share]()
 The feature is easy to use, as you only need to press the button "Share on Face", and it will redirect you to facebook.com and it will let you share the current link on Facebook.
 
 ###Feature implementation
+The feature implemented is an additional "li" on "r2/r2/templates/navmenu.html" that consists on a button named "Share on face" that uses a javascript function that redirects the user to a facebook share application to share the current reddit page you were in to anywhere you want on facebook.
