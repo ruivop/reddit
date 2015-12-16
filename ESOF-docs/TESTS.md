@@ -64,16 +64,16 @@ After analysing all of the tests that reddit has (on their public source code), 
 
 
 ##How testable is reddit?
-Theoretically, reddit can be very testable as it is possible to emulate a personal reddit in a Unix operating system through the install script that is given. 
+Theoretically, reddit can be very testable as it is possible to emulate a personal reddit in a Unix operating system through the install script that is given.
 
-In practice, because reddit is used on such a large scale, trying to run any type of testing, besides basic tests, on reddit is quite dificult as most of the bugs can't be simulated on such a small scale. They require a significant amount of data to be "farmed" first. 
+In practice, because reddit is used on such a large scale, trying to run any type of testing, besides basic tests, on reddit is quite dificult as most of the bugs can't be simulated on such a small scale. They require a significant amount of data to be "farmed" first.
 
 ##How to improve its testability?
 **Test-driven development** is a software development process that relies on the repetition of a very short development cycle: first the developer writes an (initially failing) automated test case that defines a desired improvement or new function, then produces the minimum amount of code to pass that test, and finally refactors the new code to acceptable standards.
 
-**Design for testability** is the design technique that focus in developing software that can be easily tested through automated tests. This helps ensure that software is easy to test and that new tests can easily be made in order to increase the tests coverage. 
+**Design for testability** is the design technique that focus in developing software that can be easily tested through automated tests. This helps ensure that software is easy to test and that new tests can easily be made in order to increase the tests coverage.
 
-Both of this techniques can be used to improve reddit testability. 
+Both of this techniques can be used to improve reddit testability.
 
 #Testability of Software
 
@@ -94,12 +94,12 @@ Altought it depends on the CUT we are analysing, as it can be seen in the tests,
 The structure of the tests mirrors the structure of the code (r2/tests/unit/config tests things in r2/config, etc.).
 Because of that, they are separated into three diferent packages:
 
-* config 
+* config
 * lib
 * models
 
 ######Config
-The only tests being made here are to the [the feature-flagging system](https://github.com/reddit/reddit/tree/master/r2/r2/config/feature), which allows toggling sections of code according to a variety of attributes, such as admin features, beta testers features, gold accounts, and others. 
+The only tests being made here are to the [the feature-flagging system](https://github.com/reddit/reddit/tree/master/r2/r2/config/feature), which allows toggling sections of code according to a variety of attributes, such as admin features, beta testers features, gold accounts, and others.
 
 ######Lib
 Tests the functions related to back-end side of reddit, like testing the ulrparsing, css filtering, cookie management and others.
@@ -107,19 +107,19 @@ Tests the functions related to back-end side of reddit, like testing the ulrpars
 
 Appart from this this package contains three other packages inside:
 
-* **authorize** - test the *API* authorizations. 
+* **authorize** - test the *API* authorizations.
 * **providers** - mainly tests image resizing.
-* **validator** - tests validation of inputted information such as password validation, emails and subreddit's names. 
+* **validator** - tests validation of inputted information such as password validation, emails and subreddit's names.
 
 ######Models
 The model subset of tests are for testing the various models reddit uses - that is, the object representations of data from the database, and the methods contained within them (see [ORM](https://en.wikipedia.org/wiki/Object-relational_mapping) for a description of the more general system).
 
 
 ##Understandability
-Although there isn't any proper documentation(you can find some comments occasionally) most things aren't very hard to understand if you are familiarized with how reddit.com works. 
+Although there isn't any proper documentation(you can find some comments occasionally) most things aren't very hard to understand if you are familiarized with how reddit.com works.
 
 ##Heterogeneity
-The source code of reddit is mostly written in Python. After searching for a while, we came to the conclusion that [coverage.py](http://coverage.readthedocs.org/en/latest/) was the best tool to use. After installing reddit on Ubuntu through the script a mock subreddit needs to be set up and populated with enough data. Only then can the provided tests be ran. 
+The source code of reddit is mostly written in Python. After searching for a while, we came to the conclusion that [coverage.py](http://coverage.readthedocs.org/en/latest/) was the best tool to use. After installing reddit on Ubuntu through the script a mock subreddit needs to be set up and populated with enough data. Only then can the provided tests be ran.
 
 
 #Software Testing
@@ -180,14 +180,14 @@ The System Testing is only conducted on a complete system to check the system's 
 
 The test is performed on the whole system and has in mind the SRS document. It tests the design, the behaviour and the expectations of the stakeholder. It can also test beyond the bounds defined in the SRS.
 
-##Acceptance Testing 
+##Acceptance Testing
 
 > Formal testing conducted to determine whether or not a
 system satisfies its acceptance criteria and to enable a
 customer, a user, or other authorized entity to determine
 whether or not to accept the system
 
-> - IEEE Standard Glossary of Software Engineering Terminology 610.12-1990 
+> - IEEE Standard Glossary of Software Engineering Terminology 610.12-1990
 
 Usually acceptance testing is of the responsibility of the customer.
 As of November 21st 2015, Reddit.com is the 35th most visted website worldwide. Due to the large number of daily users(costumers) it is safe to assume that when it comes to acceptance testing reddit is well prepared.
@@ -244,4 +244,4 @@ The tests were run one by one and most of them gave back errors, so the results 
 
 ![Coverage](resources/coverage.png)
 
-As we can see (even though it's inconclusive), reddit's coverage is pretty poor, standing on a 26% coverage. 
+As we can see (even though it's inconclusive), reddit's coverage is pretty poor, standing on a 26% coverage.
