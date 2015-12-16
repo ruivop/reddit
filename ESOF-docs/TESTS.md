@@ -145,7 +145,7 @@ After analysing the Config folder that reddit has, we've found that these tests 
 This folder is, by far, the one with most extensive tests. Most of it is uncompreensible, as shown by "Test Cookies Upgrade" (what's a cookie?). It also tests if the user has inputed the correct password,  if it has a valid user e-mail and, again, the name of a subreddit when creating it. Image resize, the XML they use to store the user data, the parse of URL's, the padding and encryption on strings, CSS on different browsers, are all tested here.
 
 #####Models
-Different from the Config folder, even though these tests are commented, they don't use the best language for the case, as some of the comments are only understandable by the ones who created it, i.e. "This class exists to allow us to call the _qa() method on Comments without having to dick around with everything else they support". These tests work mainly on the comments from threads, creating threads and the user permissions on subreddits.
+Different from the Config folder, even though these tests are commented, they don't use the best language for the case, as some of the comments are only understandable by the ones who created it, i.e. "This class exists to allow us to call the qa() method on Comments without having to dick around with everything else they support". These tests work mainly on the comments from threads, creating threads and the user permissions on subreddits.
 
 ##Functional Testing
 Functional testing is a type of black box testing whose tests are based on the specifications of the software CUT. They accept different inputs and then the output is examined, leaving the structure of the program out of the equation. This type of test only shows what the software is doing.
@@ -238,7 +238,7 @@ Validation is the primary method to check if a product is a product that meets t
 
 #Coverage of tests
 
-##All of the information below is outdated. I will get back on it, as i've found a way to run all of the tests at once and give a more realistic view of the code coverage. I'll get back on it tomorrow.
+Reddit has a built-in command to run all of the tests, "nosetests", after compiling, on r2/r2 directory. It has almost 500 tests, and when we ran it, 30 of them failed. It gives us a pretty decent success rate, but we couldn't achieve any coverage of the code using this method, so we tried a different approach. Running the tests through a python file.
 
 The tests were run one by one and most of them gave back errors, so the results were pretty inconclusive. We asked on [r/redditdev](https://www.reddit.com/r/redditdev) for a solution, and [u/13steinj](https://www.reddit.com/user/13steinj) gave us a kind of script to run all the tests at once. After struggling with the script and trying to change it, we kept getting errors. So, this is the only code coverage we were able to grab:
 
