@@ -137,7 +137,7 @@ The hardware components are represented as "nodes" and each node has "artifacts"
 [Reddit](https://reddit.com) is a website that can be accessed by any web browser. Although there is no official applications, reddit provides an API, so there are a lot of options to access reddit through mobile phones.
 For data store, reddit uses [PostgreSQL](http://www.postgresql.org/) and is slowly moving to [Apache Cassandra](http://cassandra.apache.org/). It uses [RabbitMQ](https://www.rabbitmq.com/) for offline processing, [HAProxy](http://www.haproxy.org/) for load balacing and [memcached](http://www.memcached.org/) for caching.
 
-![Deployment Diagram](http://imgur.com/QwMujK8)
+![Deployment Diagram](http://i.imgur.com/QwMujK8.jpg)
 
 ##Process View
 This view is the one who manages all of the dynamic aspects of the system, explains its processes and how they comunicate. It also addresses distribution of tasks, performance and integrators.
